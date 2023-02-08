@@ -1,7 +1,0 @@
-Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
-  0% 0/1233389 [00:00<?, ?it/s]/usr/local/lib/python3.8/dist-packages/torch/distributed/distributed_c10d.py:429: UserWarning: torch.distributed.distributed_c10d._get_global_rank is deprecated please use torch.distributed.distributed_c10d.get_global_rank instead
-  warnings.warn(
-  0% 1/1233389 [00:04<1369:47:58,  4.00s/it]
-
-  0% 2/1233389 [00:05<858:34:03,  2.51s/it]
-
