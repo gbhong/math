@@ -1,0 +1,174 @@
+2022-12-08 17:46:27,017 INFO    StreamThr :620 [internal.py:wandb_internal():87] W&B internal server running at pid: 620, started at: 2022-12-08 17:46:27.012810
+2022-12-08 17:46:27,020 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: status
+2022-12-08 17:46:27,024 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: status
+2022-12-08 17:46:27,025 DEBUG   SenderThread:620 [sender.py:send():303] send: header
+2022-12-08 17:46:27,025 INFO    WriterThread:620 [datastore.py:open_for_write():75] open: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/run-2regms9k.wandb
+2022-12-08 17:46:33,230 DEBUG   SenderThread:620 [sender.py:send():303] send: run
+2022-12-08 17:46:33,649 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: check_version
+2022-12-08 17:46:33,653 INFO    SenderThread:620 [dir_watcher.py:__init__():216] watching files in: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files
+2022-12-08 17:46:33,654 INFO    SenderThread:620 [sender.py:_start_run_threads():928] run started: 2regms9k with start time 1670521587.017275
+2022-12-08 17:46:33,654 DEBUG   SenderThread:620 [sender.py:send():303] send: summary
+2022-12-08 17:46:33,657 INFO    SenderThread:620 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-08 17:46:33,658 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: check_version
+2022-12-08 17:46:33,744 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: run_start
+2022-12-08 17:46:33,747 DEBUG   HandlerThread:620 [system_info.py:__init__():31] System info init
+2022-12-08 17:46:33,747 DEBUG   HandlerThread:620 [system_info.py:__init__():46] System info init done
+2022-12-08 17:46:33,748 INFO    HandlerThread:620 [system_monitor.py:start():150] Starting system monitor
+2022-12-08 17:46:33,748 INFO    SystemMonitor:620 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-08 17:46:33,748 INFO    HandlerThread:620 [system_monitor.py:probe():171] Collecting system info
+2022-12-08 17:46:33,748 INFO    SystemMonitor:620 [interfaces.py:start():168] Started cpu
+2022-12-08 17:46:33,749 INFO    SystemMonitor:620 [interfaces.py:start():168] Started disk
+2022-12-08 17:46:33,749 INFO    SystemMonitor:620 [interfaces.py:start():168] Started gpu
+2022-12-08 17:46:33,750 INFO    SystemMonitor:620 [interfaces.py:start():168] Started memory
+2022-12-08 17:46:33,751 INFO    SystemMonitor:620 [interfaces.py:start():168] Started network
+2022-12-08 17:46:33,759 DEBUG   HandlerThread:620 [system_info.py:probe():195] Probing system
+2022-12-08 17:46:33,768 DEBUG   HandlerThread:620 [system_info.py:_probe_git():180] Probing git
+2022-12-08 17:46:33,829 DEBUG   HandlerThread:620 [system_info.py:_probe_git():188] Probing git done
+2022-12-08 17:46:33,830 DEBUG   HandlerThread:620 [system_info.py:probe():241] Probing system done
+2022-12-08 17:46:33,830 DEBUG   HandlerThread:620 [system_monitor.py:probe():180] {'os': 'Linux-5.10.133+-x86_64-with-glibc2.27', 'python': '3.8.15', 'heartbeatAt': '2022-12-08T17:46:33.759482', 'startedAt': '2022-12-08T17:46:26.944096', 'docker': None, 'cuda': None, 'args': ('--local_rank=0',), 'state': 'running', 'program': './tune_gpt.py', 'codePath': 'modeling/tune_gpt.py', 'git': {'remote': 'https://github.com/hendrycks/math.git', 'commit': '357963a7f5501a6c1708cf3f3fb0cdf525642761'}, 'email': None, 'root': '/content/drive/MyDrive/Colab Notebooks/math', 'host': '46a926174665', 'username': 'root', 'executable': '/usr/bin/python3', 'cpu_count': 2, 'cpu_count_logical': 4, 'disk': {'total': 166.77415084838867, 'used': 28.077312469482422}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 15843721216}], 'memory': {'total': 25.454177856445312}}
+2022-12-08 17:46:33,830 INFO    HandlerThread:620 [system_monitor.py:probe():181] Finished collecting system info
+2022-12-08 17:46:33,830 INFO    HandlerThread:620 [system_monitor.py:probe():184] Publishing system info
+2022-12-08 17:46:33,830 DEBUG   HandlerThread:620 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-12-08 17:46:33,834 DEBUG   HandlerThread:620 [system_info.py:_save_pip():67] Saving pip packages done
+2022-12-08 17:46:33,841 INFO    HandlerThread:620 [system_monitor.py:probe():186] Finished publishing system info
+2022-12-08 17:46:33,935 DEBUG   SenderThread:620 [sender.py:send():303] send: files
+2022-12-08 17:46:33,936 INFO    SenderThread:620 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-12-08 17:46:33,946 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-08 17:46:33,946 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: stop_status
+2022-12-08 17:46:34,140 DEBUG   SenderThread:620 [sender.py:send():303] send: telemetry
+2022-12-08 17:46:34,141 DEBUG   SenderThread:620 [sender.py:send():303] send: config
+2022-12-08 17:46:34,142 DEBUG   SenderThread:620 [sender.py:send():303] send: metric
+2022-12-08 17:46:34,142 DEBUG   SenderThread:620 [sender.py:send():303] send: telemetry
+2022-12-08 17:46:34,143 DEBUG   SenderThread:620 [sender.py:send():303] send: metric
+2022-12-08 17:46:34,143 WARNING SenderThread:620 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2022-12-08 17:46:34,143 DEBUG   SenderThread:620 [sender.py:send():303] send: telemetry
+2022-12-08 17:46:34,146 DEBUG   SenderThread:620 [sender.py:send():303] send: config
+2022-12-08 17:46:34,147 DEBUG   SenderThread:620 [sender.py:send():303] send: metric
+2022-12-08 17:46:34,147 DEBUG   SenderThread:620 [sender.py:send():303] send: metric
+2022-12-08 17:46:34,148 WARNING SenderThread:620 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2022-12-08 17:46:34,521 INFO    Thread-16 :620 [upload_job.py:push():143] Uploaded file /tmp/tmp7le0knfgwandb/3ndk5irr-wandb-metadata.json
+2022-12-08 17:46:34,658 INFO    Thread-13 :620 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/wandb-metadata.json
+2022-12-08 17:46:34,659 INFO    Thread-13 :620 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/wandb-summary.json
+2022-12-08 17:46:34,660 INFO    Thread-13 :620 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/requirements.txt
+2022-12-08 17:46:34,660 INFO    Thread-13 :620 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/output.log
+2022-12-08 17:46:35,633 DEBUG   SenderThread:620 [sender.py:send():303] send: exit
+2022-12-08 17:46:35,633 INFO    SenderThread:620 [sender.py:send_exit():442] handling exit code: 1
+2022-12-08 17:46:35,633 INFO    SenderThread:620 [sender.py:send_exit():444] handling runtime: 1
+2022-12-08 17:46:35,638 INFO    SenderThread:620 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-08 17:46:35,639 INFO    SenderThread:620 [sender.py:send_exit():450] send defer
+2022-12-08 17:46:35,640 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:35,640 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 0
+2022-12-08 17:46:35,640 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:35,640 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-12-08 17:46:35,640 INFO    SenderThread:620 [sender.py:transition_state():463] send defer: 1
+2022-12-08 17:46:35,641 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:35,641 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 1
+2022-12-08 17:46:35,641 INFO    HandlerThread:620 [system_monitor.py:finish():160] Stopping system monitor
+2022-12-08 17:46:35,641 DEBUG   SystemMonitor:620 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-12-08 17:46:35,642 INFO    HandlerThread:620 [interfaces.py:finish():175] Joined cpu
+2022-12-08 17:46:35,642 DEBUG   SystemMonitor:620 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-12-08 17:46:35,642 INFO    HandlerThread:620 [interfaces.py:finish():175] Joined disk
+2022-12-08 17:46:35,643 DEBUG   SystemMonitor:620 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-12-08 17:46:35,658 INFO    HandlerThread:620 [interfaces.py:finish():175] Joined gpu
+2022-12-08 17:46:35,659 INFO    HandlerThread:620 [interfaces.py:finish():175] Joined memory
+2022-12-08 17:46:35,659 INFO    HandlerThread:620 [interfaces.py:finish():175] Joined network
+2022-12-08 17:46:35,659 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:35,659 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-12-08 17:46:35,659 INFO    SenderThread:620 [sender.py:transition_state():463] send defer: 2
+2022-12-08 17:46:35,660 DEBUG   SenderThread:620 [sender.py:send():303] send: stats
+2022-12-08 17:46:35,660 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:35,662 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 2
+2022-12-08 17:46:35,662 INFO    Thread-13 :620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/wandb-summary.json
+2022-12-08 17:46:35,662 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:35,663 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-12-08 17:46:35,663 INFO    SenderThread:620 [sender.py:transition_state():463] send defer: 3
+2022-12-08 17:46:35,664 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:35,664 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 3
+2022-12-08 17:46:35,664 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:35,664 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-12-08 17:46:35,664 INFO    SenderThread:620 [sender.py:transition_state():463] send defer: 4
+2022-12-08 17:46:35,665 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:35,665 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 4
+2022-12-08 17:46:35,665 DEBUG   SenderThread:620 [sender.py:send():303] send: summary
+2022-12-08 17:46:35,668 INFO    SenderThread:620 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-08 17:46:35,669 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:35,669 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-12-08 17:46:35,669 INFO    SenderThread:620 [sender.py:transition_state():463] send defer: 5
+2022-12-08 17:46:35,669 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:35,670 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 5
+2022-12-08 17:46:35,670 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:35,670 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-12-08 17:46:35,946 INFO    SenderThread:620 [sender.py:transition_state():463] send defer: 6
+2022-12-08 17:46:35,946 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:35,946 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 6
+2022-12-08 17:46:35,947 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:35,947 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-12-08 17:46:36,165 INFO    SenderThread:620 [sender.py:transition_state():463] send defer: 7
+2022-12-08 17:46:36,166 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:36,166 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 7
+2022-12-08 17:46:36,166 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:36,166 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-12-08 17:46:36,166 INFO    SenderThread:620 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-08 17:46:36,630 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-08 17:46:36,666 INFO    SenderThread:620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/config.yaml
+2022-12-08 17:46:36,666 INFO    SenderThread:620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/output.log
+2022-12-08 17:46:36,667 INFO    SenderThread:620 [dir_watcher.py:finish():392] scan: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files
+2022-12-08 17:46:36,668 INFO    SenderThread:620 [dir_watcher.py:finish():406] scan save: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/config.yaml config.yaml
+2022-12-08 17:46:36,669 INFO    SenderThread:620 [dir_watcher.py:finish():406] scan save: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/wandb-summary.json wandb-summary.json
+2022-12-08 17:46:36,672 INFO    SenderThread:620 [dir_watcher.py:finish():406] scan save: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/requirements.txt requirements.txt
+2022-12-08 17:46:36,676 INFO    SenderThread:620 [dir_watcher.py:finish():406] scan save: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/wandb-metadata.json wandb-metadata.json
+2022-12-08 17:46:36,676 INFO    SenderThread:620 [dir_watcher.py:finish():406] scan save: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/output.log output.log
+2022-12-08 17:46:36,680 INFO    SenderThread:620 [sender.py:transition_state():463] send defer: 8
+2022-12-08 17:46:36,680 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: poll_exit
+2022-12-08 17:46:36,681 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:36,681 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 8
+2022-12-08 17:46:36,682 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:36,682 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-12-08 17:46:36,682 INFO    SenderThread:620 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-08 17:46:37,246 INFO    Thread-19 :620 [upload_job.py:push():143] Uploaded file /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/requirements.txt
+2022-12-08 17:46:37,257 INFO    Thread-18 :620 [upload_job.py:push():143] Uploaded file /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/wandb-summary.json
+2022-12-08 17:46:37,258 INFO    Thread-20 :620 [upload_job.py:push():143] Uploaded file /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/output.log
+2022-12-08 17:46:37,285 INFO    Thread-17 :620 [upload_job.py:push():143] Uploaded file /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/files/config.yaml
+2022-12-08 17:46:37,486 INFO    Thread-12 :620 [sender.py:transition_state():463] send defer: 9
+2022-12-08 17:46:37,487 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:37,487 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 9
+2022-12-08 17:46:37,487 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:37,488 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-12-08 17:46:37,488 INFO    SenderThread:620 [file_pusher.py:join():173] waiting for file pusher
+2022-12-08 17:46:37,488 INFO    SenderThread:620 [sender.py:transition_state():463] send defer: 10
+2022-12-08 17:46:37,488 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:37,488 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 10
+2022-12-08 17:46:37,489 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:37,489 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-12-08 17:46:37,631 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-08 17:46:38,039 INFO    SenderThread:620 [sender.py:transition_state():463] send defer: 11
+2022-12-08 17:46:38,040 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: poll_exit
+2022-12-08 17:46:38,040 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:38,041 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 11
+2022-12-08 17:46:38,041 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:38,041 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-12-08 17:46:38,041 INFO    SenderThread:620 [sender.py:transition_state():463] send defer: 12
+2022-12-08 17:46:38,042 DEBUG   SenderThread:620 [sender.py:send():303] send: final
+2022-12-08 17:46:38,042 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: defer
+2022-12-08 17:46:38,042 DEBUG   SenderThread:620 [sender.py:send():303] send: footer
+2022-12-08 17:46:38,043 INFO    HandlerThread:620 [handler.py:handle_request_defer():162] handle defer: 12
+2022-12-08 17:46:38,043 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: defer
+2022-12-08 17:46:38,043 INFO    SenderThread:620 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-12-08 17:46:38,044 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-08 17:46:38,044 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-08 17:46:38,044 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: poll_exit
+2022-12-08 17:46:38,045 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: poll_exit
+2022-12-08 17:46:38,046 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: server_info
+2022-12-08 17:46:38,046 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: get_summary
+2022-12-08 17:46:38,046 DEBUG   SenderThread:620 [sender.py:send_request():317] send_request: server_info
+2022-12-08 17:46:38,047 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: sampled_history
+2022-12-08 17:46:38,426 INFO    MainThread:620 [wandb_run.py:_footer_history_summary_info():3408] rendering history
+2022-12-08 17:46:38,426 INFO    MainThread:620 [wandb_run.py:_footer_history_summary_info():3440] rendering summary
+2022-12-08 17:46:38,426 INFO    MainThread:620 [wandb_run.py:_footer_sync_info():3364] logging synced files
+2022-12-08 17:46:38,427 DEBUG   HandlerThread:620 [handler.py:handle_request():139] handle_request: shutdown
+2022-12-08 17:46:38,427 INFO    HandlerThread:620 [handler.py:finish():814] shutting down handler
+2022-12-08 17:46:39,042 INFO    WriterThread:620 [datastore.py:close():279] close: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221208_174626-2regms9k/run-2regms9k.wandb
+2022-12-08 17:46:39,425 INFO    SenderThread:620 [sender.py:finish():1331] shutting down sender
+2022-12-08 17:46:39,426 INFO    SenderThread:620 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-08 17:46:39,426 INFO    SenderThread:620 [file_pusher.py:join():173] waiting for file pusher
+2022-12-08 17:46:39,429 INFO    MainThread:620 [internal.py:handle_exit():77] Internal process exited

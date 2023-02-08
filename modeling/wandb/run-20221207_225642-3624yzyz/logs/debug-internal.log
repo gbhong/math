@@ -1,0 +1,56 @@
+2022-12-07 22:56:42,905 INFO    StreamThr :2260 [internal.py:wandb_internal():87] W&B internal server running at pid: 2260, started at: 2022-12-07 22:56:42.902457
+2022-12-07 22:56:42,908 DEBUG   HandlerThread:2260 [handler.py:handle_request():139] handle_request: status
+2022-12-07 22:56:42,911 DEBUG   SenderThread:2260 [sender.py:send_request():317] send_request: status
+2022-12-07 22:56:42,913 DEBUG   SenderThread:2260 [sender.py:send():303] send: header
+2022-12-07 22:56:42,913 INFO    WriterThread:2260 [datastore.py:open_for_write():75] open: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221207_225642-3624yzyz/run-3624yzyz.wandb
+2022-12-07 22:56:43,429 DEBUG   SenderThread:2260 [sender.py:send():303] send: run
+2022-12-07 22:56:43,538 DEBUG   HandlerThread:2260 [handler.py:handle_request():139] handle_request: check_version
+2022-12-07 22:56:43,548 INFO    SenderThread:2260 [dir_watcher.py:__init__():216] watching files in: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221207_225642-3624yzyz/files
+2022-12-07 22:56:43,548 INFO    SenderThread:2260 [sender.py:_start_run_threads():928] run started: 3624yzyz with start time 1670453802.899344
+2022-12-07 22:56:43,548 DEBUG   SenderThread:2260 [sender.py:send():303] send: summary
+2022-12-07 22:56:43,553 INFO    SenderThread:2260 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-07 22:56:43,553 DEBUG   SenderThread:2260 [sender.py:send_request():317] send_request: check_version
+2022-12-07 22:56:43,635 DEBUG   HandlerThread:2260 [handler.py:handle_request():139] handle_request: run_start
+2022-12-07 22:56:43,643 ERROR   HandlerThread:2260 [gpu.py:is_available():351] Error initializing NVML: Driver Not Loaded
+2022-12-07 22:56:44,559 INFO    Thread-13 :2260 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221207_225642-3624yzyz/files/wandb-summary.json
+2022-12-07 22:56:48,155 DEBUG   HandlerThread:2260 [system_info.py:__init__():31] System info init
+2022-12-07 22:56:48,156 DEBUG   HandlerThread:2260 [system_info.py:__init__():46] System info init done
+2022-12-07 22:56:48,156 INFO    HandlerThread:2260 [system_monitor.py:start():150] Starting system monitor
+2022-12-07 22:56:48,156 INFO    SystemMonitor:2260 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-07 22:56:48,156 INFO    HandlerThread:2260 [system_monitor.py:probe():171] Collecting system info
+2022-12-07 22:56:48,157 INFO    SystemMonitor:2260 [interfaces.py:start():168] Started cpu
+2022-12-07 22:56:48,158 INFO    SystemMonitor:2260 [interfaces.py:start():168] Started disk
+2022-12-07 22:56:48,159 INFO    SystemMonitor:2260 [interfaces.py:start():168] Started memory
+2022-12-07 22:56:48,160 INFO    SystemMonitor:2260 [interfaces.py:start():168] Started network
+2022-12-07 22:56:48,160 INFO    SystemMonitor:2260 [interfaces.py:start():168] Started tpu
+2022-12-07 22:56:48,162 DEBUG   HandlerThread:2260 [system_info.py:probe():195] Probing system
+2022-12-07 22:56:48,197 DEBUG   HandlerThread:2260 [system_info.py:_probe_git():180] Probing git
+2022-12-07 22:56:48,248 DEBUG   HandlerThread:2260 [system_info.py:_probe_git():188] Probing git done
+2022-12-07 22:56:48,248 DEBUG   HandlerThread:2260 [system_info.py:probe():241] Probing system done
+2022-12-07 22:56:48,248 DEBUG   HandlerThread:2260 [system_monitor.py:probe():180] {'os': 'Linux-5.10.133+-x86_64-with-glibc2.27', 'python': '3.8.15', 'heartbeatAt': '2022-12-07T22:56:48.163118', 'startedAt': '2022-12-07T22:56:42.833622', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'tune_gpt.py', 'codePath': 'modeling/tune_gpt.py', 'git': {'remote': 'https://github.com/hendrycks/math.git', 'commit': '357963a7f5501a6c1708cf3f3fb0cdf525642761'}, 'email': None, 'root': '/content/drive/MyDrive/Colab Notebooks/math', 'host': '6c3e661ead33', 'username': 'root', 'executable': '/usr/bin/python3', 'cpu_count': 20, 'cpu_count_logical': 40, 'disk': {'total': 225.83275985717773, 'used': 32.59172439575195}, 'memory': {'total': 35.24018096923828}, 'tpu': {'service_address': '10.43.169.170:8466'}}
+2022-12-07 22:56:48,248 INFO    HandlerThread:2260 [system_monitor.py:probe():181] Finished collecting system info
+2022-12-07 22:56:48,249 INFO    HandlerThread:2260 [system_monitor.py:probe():184] Publishing system info
+2022-12-07 22:56:48,249 DEBUG   HandlerThread:2260 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-12-07 22:56:48,255 DEBUG   HandlerThread:2260 [system_info.py:_save_pip():67] Saving pip packages done
+2022-12-07 22:56:48,259 INFO    HandlerThread:2260 [system_monitor.py:probe():186] Finished publishing system info
+2022-12-07 22:56:48,264 DEBUG   SenderThread:2260 [sender.py:send():303] send: files
+2022-12-07 22:56:48,265 INFO    SenderThread:2260 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-12-07 22:56:48,274 DEBUG   HandlerThread:2260 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-07 22:56:48,274 DEBUG   SenderThread:2260 [sender.py:send_request():317] send_request: stop_status
+2022-12-07 22:56:48,303 DEBUG   SenderThread:2260 [sender.py:send():303] send: telemetry
+2022-12-07 22:56:48,304 DEBUG   SenderThread:2260 [sender.py:send():303] send: config
+2022-12-07 22:56:48,305 DEBUG   SenderThread:2260 [sender.py:send():303] send: metric
+2022-12-07 22:56:48,305 DEBUG   SenderThread:2260 [sender.py:send():303] send: telemetry
+2022-12-07 22:56:48,305 DEBUG   SenderThread:2260 [sender.py:send():303] send: metric
+2022-12-07 22:56:48,305 WARNING SenderThread:2260 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2022-12-07 22:56:48,305 DEBUG   SenderThread:2260 [sender.py:send():303] send: telemetry
+2022-12-07 22:56:48,311 DEBUG   SenderThread:2260 [sender.py:send():303] send: config
+2022-12-07 22:56:48,312 DEBUG   SenderThread:2260 [sender.py:send():303] send: metric
+2022-12-07 22:56:48,312 DEBUG   SenderThread:2260 [sender.py:send():303] send: metric
+2022-12-07 22:56:48,312 WARNING SenderThread:2260 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2022-12-07 22:56:48,482 INFO    Thread-16 :2260 [upload_job.py:push():143] Uploaded file /tmp/tmpw2fhmhv9wandb/2f1jncuo-wandb-metadata.json
+2022-12-07 22:56:48,603 INFO    Thread-13 :2260 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221207_225642-3624yzyz/files/requirements.txt
+2022-12-07 22:56:48,604 INFO    Thread-13 :2260 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221207_225642-3624yzyz/files/wandb-metadata.json
+2022-12-07 22:56:48,604 INFO    Thread-13 :2260 [dir_watcher.py:_on_file_created():275] file/dir created: /content/drive/MyDrive/Colab Notebooks/math/modeling/wandb/run-20221207_225642-3624yzyz/files/output.log
+2022-12-07 22:57:05,701 INFO    MainThread:2260 [internal.py:handle_exit():77] Internal process exited
+2022-12-07 22:57:05,707 WARNING MsgRouterThr:2260 [router.py:message_loop():74] EOFError seen in message_loop

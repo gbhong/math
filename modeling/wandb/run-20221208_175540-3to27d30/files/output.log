@@ -1,0 +1,1940 @@
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+  0% 0/1233389 [00:00<?, ?it/s]/usr/local/lib/python3.8/dist-packages/torch/distributed/distributed_c10d.py:429: UserWarning: torch.distributed.distributed_c10d._get_global_rank is deprecated please use torch.distributed.distributed_c10d.get_global_rank instead
+  warnings.warn(
+  0% 1/1233389 [00:03<1208:27:36,  3.53s/it]
+
+  0% 2/1233389 [00:04<778:30:31,  2.27s/it]
+
+  0% 4/1233389 [00:07<579:55:29,  1.69s/it]
+
+  0% 5/1233389 [00:09<544:17:03,  1.59s/it]
+[2022-12-08 17:55:50,593] [INFO] [timer.py:197:stop] 0/5, RunningAvgSamplesPerSec=2.853597873359625, CurrSamplesPerSec=2.8560191313537393, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 1.3792, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 7/1233389 [00:11<509:34:37,  1.49s/it]
+
+  0% 8/1233389 [00:13<498:11:53,  1.45s/it]
+[2022-12-08 17:55:54,788] [INFO] [timer.py:197:stop] 0/8, RunningAvgSamplesPerSec=2.861115984013747, CurrSamplesPerSec=2.8999718770131833, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 10/1233389 [00:16<490:05:19,  1.43s/it]
+[2022-12-08 17:55:57,601] [INFO] [logging.py:68:log_dist] [Rank 0] step=10, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:55:57,608] [INFO] [timer.py:197:stop] 0/10, RunningAvgSamplesPerSec=2.8566116717399233, CurrSamplesPerSec=2.8527309569439905, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 11/1233389 [00:17<488:15:39,  1.43s/it]
+[2022-12-08 17:55:59,021] [INFO] [timer.py:197:stop] 0/11, RunningAvgSamplesPerSec=2.855083692112138, CurrSamplesPerSec=2.84291845028117, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 12/1233389 [00:18<486:26:55,  1.42s/it]
+
+  0% 14/1233389 [00:21<485:04:15,  1.42s/it]
+
+  0% 15/1233389 [00:23<485:49:16,  1.42s/it]
+[2022-12-08 17:56:04,674] [INFO] [timer.py:197:stop] 0/15, RunningAvgSamplesPerSec=2.8493670335061423, CurrSamplesPerSec=2.8172219597080486, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 1.1233, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 17/1233389 [00:26<487:49:04,  1.42s/it]
+
+  0% 18/1233389 [00:27<489:55:44,  1.43s/it]
+[2022-12-08 17:56:08,977] [INFO] [timer.py:197:stop] 0/18, RunningAvgSamplesPerSec=2.8393306199659176, CurrSamplesPerSec=2.7762966199019696, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 19/1233389 [00:29<497:53:47,  1.45s/it]
+[2022-12-08 17:56:11,898] [INFO] [logging.py:68:log_dist] [Rank 0] step=20, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:56:11,905] [INFO] [timer.py:197:stop] 0/20, RunningAvgSamplesPerSec=2.8278331852916216, CurrSamplesPerSec=2.8235544385125375, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 21/1233389 [00:31<492:45:20,  1.44s/it]
+
+  0% 22/1233389 [00:33<492:24:40,  1.44s/it]
+[2022-12-08 17:56:14,766] [INFO] [timer.py:197:stop] 0/22, RunningAvgSamplesPerSec=2.825480602766263, CurrSamplesPerSec=2.794028912172996, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 24/1233389 [00:36<489:14:31,  1.43s/it]
+
+  0% 25/1233389 [00:37<487:54:47,  1.42s/it]
+[2022-12-08 17:56:19,020] [INFO] [timer.py:197:stop] 0/25, RunningAvgSamplesPerSec=2.825791612548667, CurrSamplesPerSec=2.833151686579136, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 1.0225, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 26/1233389 [00:38<488:06:20,  1.42s/it]
+
+  0% 28/1233389 [00:41<487:48:36,  1.42s/it]
+
+  0% 29/1233389 [00:43<487:47:33,  1.42s/it]
+[2022-12-08 17:56:24,715] [INFO] [timer.py:197:stop] 0/29, RunningAvgSamplesPerSec=2.8245751051422494, CurrSamplesPerSec=2.817021866773053, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 17:56:26,129] [INFO] [logging.py:68:log_dist] [Rank 0] step=30, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:56:26,136] [INFO] [timer.py:197:stop] 0/30, RunningAvgSamplesPerSec=2.824436014877407, CurrSamplesPerSec=2.820685748852414, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 31/1233389 [00:46<488:55:34,  1.43s/it]
+
+  0% 32/1233389 [00:47<488:04:57,  1.42s/it]
+[2022-12-08 17:56:28,992] [INFO] [timer.py:197:stop] 0/32, RunningAvgSamplesPerSec=2.8234927119501134, CurrSamplesPerSec=2.8253194673237494, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 33/1233389 [00:48<488:43:26,  1.43s/it]
+
+  0% 35/1233389 [00:51<489:30:25,  1.43s/it]
+[2022-12-08 17:56:33,284] [INFO] [timer.py:197:stop] 0/35, RunningAvgSamplesPerSec=2.821563103849162, CurrSamplesPerSec=2.801736095455191, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 36/1233389 [00:53<490:05:57,  1.43s/it]
+[2022-12-08 17:56:34,719] [INFO] [timer.py:197:stop] 0/36, RunningAvgSamplesPerSec=2.820923776873063, CurrSamplesPerSec=2.799987316189049, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 38/1233389 [00:56<491:49:55,  1.44s/it]
+
+  0% 39/1233389 [00:57<491:41:00,  1.44s/it]
+[2022-12-08 17:56:39,035] [INFO] [timer.py:197:stop] 0/39, RunningAvgSamplesPerSec=2.818263129104894, CurrSamplesPerSec=2.7964529492056207, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 17:56:40,464] [INFO] [logging.py:68:log_dist] [Rank 0] step=40, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:56:40,471] [INFO] [timer.py:197:stop] 0/40, RunningAvgSamplesPerSec=2.8175582381130404, CurrSamplesPerSec=2.791722882015326, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 40/1233389 [00:59<491:48:20,  1.44s/it]
+
+  0% 42/1233389 [01:01<491:32:14,  1.43s/it]
+
+  0% 43/1233389 [01:03<491:14:49,  1.43s/it]
+[2022-12-08 17:56:44,773] [INFO] [timer.py:197:stop] 0/43, RunningAvgSamplesPerSec=2.816309502286816, CurrSamplesPerSec=2.7997429416163406, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 45/1233389 [01:06<491:17:29,  1.43s/it]
+[2022-12-08 17:56:47,640] [INFO] [timer.py:197:stop] 0/45, RunningAvgSamplesPerSec=2.8153397641185487, CurrSamplesPerSec=2.7927443182858562, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 46/1233389 [01:07<491:31:12,  1.43s/it]
+[2022-12-08 17:56:49,077] [INFO] [timer.py:197:stop] 0/46, RunningAvgSamplesPerSec=2.8148445504657844, CurrSamplesPerSec=2.7937139331712, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 47/1233389 [01:09<491:57:42,  1.44s/it]
+
+  0% 49/1233389 [01:11<492:51:14,  1.44s/it]
+
+  0% 50/1233389 [01:13<493:02:42,  1.44s/it]
+[2022-12-08 17:56:54,829] [INFO] [logging.py:68:log_dist] [Rank 0] step=50, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:56:54,836] [INFO] [timer.py:197:stop] 0/50, RunningAvgSamplesPerSec=2.8122767814425984, CurrSamplesPerSec=2.7827102323202233, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.9571, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 52/1233389 [01:16<494:53:07,  1.44s/it]
+
+  0% 53/1233389 [01:17<495:29:17,  1.45s/it]
+[2022-12-08 17:56:59,184] [INFO] [timer.py:197:stop] 0/53, RunningAvgSamplesPerSec=2.809585087705432, CurrSamplesPerSec=2.763908696801785, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 54/1233389 [01:19<495:20:58,  1.45s/it]
+[2022-12-08 17:57:02,089] [INFO] [timer.py:197:stop] 0/55, RunningAvgSamplesPerSec=2.807663442890984, CurrSamplesPerSec=2.7449444882741316, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 56/1233389 [01:22<495:55:03,  1.45s/it]
+
+  0% 57/1233389 [01:23<495:24:04,  1.45s/it]
+[2022-12-08 17:57:04,973] [INFO] [timer.py:197:stop] 0/57, RunningAvgSamplesPerSec=2.8067430243675573, CurrSamplesPerSec=2.7792197809916206, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 58/1233389 [01:24<496:05:53,  1.45s/it]
+
+  0% 60/1233389 [01:27<505:09:08,  1.47s/it]
+[2022-12-08 17:57:09,429] [INFO] [logging.py:68:log_dist] [Rank 0] step=60, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:57:09,436] [INFO] [timer.py:197:stop] 0/60, RunningAvgSamplesPerSec=2.800721171538131, CurrSamplesPerSec=2.7161931239121486, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 61/1233389 [01:29<505:13:31,  1.47s/it]
+[2022-12-08 17:57:10,911] [INFO] [timer.py:197:stop] 0/61, RunningAvgSamplesPerSec=2.7993562205269495, CurrSamplesPerSec=2.722402862404972, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 62/1233389 [01:30<502:47:23,  1.47s/it]
+
+  0% 64/1233389 [01:33<501:17:50,  1.46s/it]
+
+  0% 65/1233389 [01:35<499:49:06,  1.46s/it]
+[2022-12-08 17:57:16,727] [INFO] [timer.py:197:stop] 0/65, RunningAvgSamplesPerSec=2.7966575674352745, CurrSamplesPerSec=2.7667113679584747, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.8537, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 67/1233389 [01:38<498:11:12,  1.45s/it]
+
+  0% 68/1233389 [01:39<498:17:45,  1.45s/it]
+[2022-12-08 17:57:21,082] [INFO] [timer.py:197:stop] 0/68, RunningAvgSamplesPerSec=2.7951468493534852, CurrSamplesPerSec=2.755226931737861, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 69/1233389 [01:41<498:50:43,  1.46s/it]
+[2022-12-08 17:57:23,988] [INFO] [logging.py:68:log_dist] [Rank 0] step=70, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:57:23,995] [INFO] [timer.py:197:stop] 0/70, RunningAvgSamplesPerSec=2.793850532120882, CurrSamplesPerSec=2.757563231078917, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 71/1233389 [01:44<499:24:07,  1.46s/it]
+
+  0% 72/1233389 [01:45<498:50:52,  1.46s/it]
+[2022-12-08 17:57:26,911] [INFO] [timer.py:197:stop] 0/72, RunningAvgSamplesPerSec=2.7926353277025324, CurrSamplesPerSec=2.7599811342575267, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 73/1233389 [01:46<498:28:21,  1.46s/it]
+
+  0% 75/1233389 [01:49<498:54:36,  1.46s/it]
+[2022-12-08 17:57:31,278] [INFO] [timer.py:197:stop] 0/75, RunningAvgSamplesPerSec=2.791051055505785, CurrSamplesPerSec=2.7489306802241913, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 76/1233389 [01:51<498:36:01,  1.46s/it]
+[2022-12-08 17:57:32,731] [INFO] [timer.py:197:stop] 0/76, RunningAvgSamplesPerSec=2.790672044926819, CurrSamplesPerSec=2.7632795722036465, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 78/1233389 [01:54<500:02:54,  1.46s/it]
+
+  0% 79/1233389 [01:55<502:17:20,  1.47s/it]
+[2022-12-08 17:57:37,138] [INFO] [timer.py:197:stop] 0/79, RunningAvgSamplesPerSec=2.7882194813075794, CurrSamplesPerSec=2.7066731370868653, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 17:57:38,589] [INFO] [logging.py:68:log_dist] [Rank 0] step=80, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:57:38,596] [INFO] [timer.py:197:stop] 0/80, RunningAvgSamplesPerSec=2.787718359017597, CurrSamplesPerSec=2.749665494723634, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 80/1233389 [01:57<501:26:51,  1.46s/it]
+
+  0% 82/1233389 [02:00<500:03:36,  1.46s/it]
+
+  0% 83/1233389 [02:01<501:40:54,  1.46s/it]
+[2022-12-08 17:57:42,985] [INFO] [timer.py:197:stop] 0/83, RunningAvgSamplesPerSec=2.785981056945459, CurrSamplesPerSec=2.7168617015849965, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 84/1233389 [02:02<501:47:34,  1.46s/it]
+[2022-12-08 17:57:45,926] [INFO] [timer.py:197:stop] 0/85, RunningAvgSamplesPerSec=2.7845124614192276, CurrSamplesPerSec=2.7170746598841893, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 86/1233389 [02:05<502:34:17,  1.47s/it]
+
+  0% 87/1233389 [02:07<501:56:43,  1.47s/it]
+[2022-12-08 17:57:48,852] [INFO] [timer.py:197:stop] 0/87, RunningAvgSamplesPerSec=2.783511844775712, CurrSamplesPerSec=2.7438894987432927, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 89/1233389 [02:10<501:41:22,  1.46s/it]
+
+  0% 90/1233389 [02:11<501:48:13,  1.46s/it]
+[2022-12-08 17:57:53,240] [INFO] [logging.py:68:log_dist] [Rank 0] step=90, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:57:53,247] [INFO] [timer.py:197:stop] 0/90, RunningAvgSamplesPerSec=2.781874474661277, CurrSamplesPerSec=2.734780410246011, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.9533, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 91/1233389 [02:13<501:14:14,  1.46s/it]
+
+  0% 93/1233389 [02:16<505:31:16,  1.48s/it]
+[2022-12-08 17:57:57,678] [INFO] [timer.py:197:stop] 0/93, RunningAvgSamplesPerSec=2.779644902348794, CurrSamplesPerSec=2.685031617572687, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 94/1233389 [02:17<507:17:56,  1.48s/it]
+[2022-12-08 17:58:00,648] [INFO] [timer.py:197:stop] 0/95, RunningAvgSamplesPerSec=2.7778889558091158, CurrSamplesPerSec=2.714831036023922, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 95/1233389 [02:19<506:54:48,  1.48s/it]
+
+  0% 97/1233389 [02:22<505:34:23,  1.48s/it]
+[2022-12-08 17:58:03,593] [INFO] [timer.py:197:stop] 0/97, RunningAvgSamplesPerSec=2.776834954121151, CurrSamplesPerSec=2.725786957885777, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 98/1233389 [02:23<504:26:19,  1.47s/it]
+
+  0% 99/1233389 [02:25<504:46:49,  1.47s/it]
+[2022-12-08 17:58:08,342] [INFO] [logging.py:68:log_dist] [Rank 0] step=100, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+
+  0% 101/1233389 [02:28<528:31:17,  1.54s/it]
+{'loss': 0.8019, 'learning_rate': 5e-05, 'epoch': 0.0}
+[2022-12-08 17:58:09,814] [INFO] [timer.py:197:stop] 0/101, RunningAvgSamplesPerSec=2.7682128748248656, CurrSamplesPerSec=2.739466936674666, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 103/1233389 [02:31<519:06:29,  1.52s/it]
+[2022-12-08 17:58:12,793] [INFO] [timer.py:197:stop] 0/103, RunningAvgSamplesPerSec=2.7666398100232588, CurrSamplesPerSec=2.698927038695652, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 105/1233389 [02:34<513:35:48,  1.50s/it]
+[2022-12-08 17:58:15,760] [INFO] [timer.py:197:stop] 0/105, RunningAvgSamplesPerSec=2.765371645583134, CurrSamplesPerSec=2.702015364746441, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 106/1233389 [02:35<510:57:51,  1.49s/it]
+[2022-12-08 17:58:17,234] [INFO] [timer.py:197:stop] 0/106, RunningAvgSamplesPerSec=2.7649750385809337, CurrSamplesPerSec=2.724724956873017, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 107/1233389 [02:37<510:02:15,  1.49s/it]
+
+  0% 109/1233389 [02:40<507:27:22,  1.48s/it]
+
+  0% 110/1233389 [02:41<507:12:44,  1.48s/it]
+[2022-12-08 17:58:23,135] [INFO] [logging.py:68:log_dist] [Rank 0] step=110, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:58:23,142] [INFO] [timer.py:197:stop] 0/110, RunningAvgSamplesPerSec=2.7630981076322527, CurrSamplesPerSec=2.7116173780482877, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7811, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 111/1233389 [02:43<507:34:45,  1.48s/it]
+
+  0% 113/1233389 [02:46<506:40:51,  1.48s/it]
+
+  0% 114/1233389 [02:47<505:50:12,  1.48s/it]
+[2022-12-08 17:58:29,048] [INFO] [timer.py:197:stop] 0/114, RunningAvgSamplesPerSec=2.761402823140281, CurrSamplesPerSec=2.7254924895185964, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 17:58:30,552] [INFO] [timer.py:197:stop] 0/115, RunningAvgSamplesPerSec=2.7605281898628977, CurrSamplesPerSec=2.6659552035670617, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 115/1233389 [02:49<508:35:59,  1.48s/it]
+
+  0% 117/1233389 [02:52<507:44:21,  1.48s/it]
+
+  0% 118/1233389 [02:53<508:15:57,  1.48s/it]
+[2022-12-08 17:58:34,998] [INFO] [timer.py:197:stop] 0/118, RunningAvgSamplesPerSec=2.759147850182548, CurrSamplesPerSec=2.6950827140548754, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 119/1233389 [02:55<507:51:06,  1.48s/it]
+[2022-12-08 17:58:37,941] [INFO] [logging.py:68:log_dist] [Rank 0] step=120, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:58:37,948] [INFO] [timer.py:197:stop] 0/120, RunningAvgSamplesPerSec=2.7584327752424698, CurrSamplesPerSec=2.726314060121138, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 121/1233389 [02:57<506:17:20,  1.48s/it]
+
+  0% 122/1233389 [02:59<506:44:11,  1.48s/it]
+[2022-12-08 17:58:40,906] [INFO] [timer.py:197:stop] 0/122, RunningAvgSamplesPerSec=2.7576424526694567, CurrSamplesPerSec=2.703931020589065, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 123/1233389 [03:00<507:19:04,  1.48s/it]
+
+  0% 125/1233389 [03:03<508:18:40,  1.48s/it]
+[2022-12-08 17:58:45,364] [INFO] [timer.py:197:stop] 0/125, RunningAvgSamplesPerSec=2.756134966197152, CurrSamplesPerSec=2.6973922435657403, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 126/1233389 [03:05<510:38:55,  1.49s/it]
+[2022-12-08 17:58:46,871] [INFO] [timer.py:197:stop] 0/126, RunningAvgSamplesPerSec=2.7553778003642733, CurrSamplesPerSec=2.665315253629831, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 127/1233389 [03:06<511:35:53,  1.49s/it]
+
+  0% 129/1233389 [03:09<511:33:49,  1.49s/it]
+
+  0% 130/1233389 [03:11<511:12:26,  1.49s/it]
+[2022-12-08 17:58:52,843] [INFO] [logging.py:68:log_dist] [Rank 0] step=130, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:58:52,851] [INFO] [timer.py:197:stop] 0/130, RunningAvgSamplesPerSec=2.753016660686304, CurrSamplesPerSec=2.6901920615582164, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.8154, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 132/1233389 [03:14<510:32:18,  1.49s/it]
+
+  0% 133/1233389 [03:15<510:11:36,  1.49s/it]
+[2022-12-08 17:58:57,313] [INFO] [timer.py:197:stop] 0/133, RunningAvgSamplesPerSec=2.7516906534888785, CurrSamplesPerSec=2.69627554915999, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 134/1233389 [03:17<510:08:21,  1.49s/it]
+[2022-12-08 17:59:00,292] [INFO] [timer.py:197:stop] 0/135, RunningAvgSamplesPerSec=2.750779218341686, CurrSamplesPerSec=2.6914090661314183, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 136/1233389 [03:20<510:12:10,  1.49s/it]
+
+  0% 137/1233389 [03:21<511:24:01,  1.49s/it]
+[2022-12-08 17:59:03,282] [INFO] [timer.py:197:stop] 0/137, RunningAvgSamplesPerSec=2.7497882573932575, CurrSamplesPerSec=2.6752173018013514, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 138/1233389 [03:23<510:51:32,  1.49s/it]
+
+  0% 140/1233389 [03:26<510:03:34,  1.49s/it]
+[2022-12-08 17:59:07,738] [INFO] [logging.py:68:log_dist] [Rank 0] step=140, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:59:07,745] [INFO] [timer.py:197:stop] 0/140, RunningAvgSamplesPerSec=2.7485714014703375, CurrSamplesPerSec=2.7025751051529325, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 141/1233389 [03:27<510:33:55,  1.49s/it]
+[2022-12-08 17:59:09,239] [INFO] [timer.py:197:stop] 0/141, RunningAvgSamplesPerSec=2.74812550915905, CurrSamplesPerSec=2.687949531221036, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 142/1233389 [03:29<510:42:15,  1.49s/it]
+
+  0% 144/1233389 [03:32<511:10:18,  1.49s/it]
+
+  0% 145/1233389 [03:33<512:26:40,  1.50s/it]
+[2022-12-08 17:59:15,223] [INFO] [timer.py:197:stop] 0/145, RunningAvgSamplesPerSec=2.7461669322429243, CurrSamplesPerSec=2.6640108940875185, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.8669, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 146/1233389 [03:35<512:31:53,  1.50s/it]
+
+  0% 148/1233389 [03:38<510:57:23,  1.49s/it]
+
+  0% 149/1233389 [03:39<510:57:03,  1.49s/it]
+[2022-12-08 17:59:21,187] [INFO] [timer.py:197:stop] 0/149, RunningAvgSamplesPerSec=2.744593910893492, CurrSamplesPerSec=2.6875155082401716, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 17:59:22,670] [INFO] [logging.py:68:log_dist] [Rank 0] step=150, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:59:22,678] [INFO] [timer.py:197:stop] 0/150, RunningAvgSamplesPerSec=2.7442129102925645, CurrSamplesPerSec=2.6893334844397523, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 150/1233389 [03:41<510:52:24,  1.49s/it]
+
+  0% 152/1233389 [03:44<511:33:40,  1.49s/it]
+
+  0% 153/1233389 [03:45<511:20:05,  1.49s/it]
+[2022-12-08 17:59:27,160] [INFO] [timer.py:197:stop] 0/153, RunningAvgSamplesPerSec=2.7429970703893365, CurrSamplesPerSec=2.687965034634521, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 154/1233389 [03:47<511:20:28,  1.49s/it]
+[2022-12-08 17:59:30,142] [INFO] [timer.py:197:stop] 0/155, RunningAvgSamplesPerSec=2.742274157574843, CurrSamplesPerSec=2.691381433958293, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 156/1233389 [03:50<510:56:06,  1.49s/it]
+
+  0% 157/1233389 [03:51<511:48:46,  1.49s/it]
+[2022-12-08 17:59:33,133] [INFO] [timer.py:197:stop] 0/157, RunningAvgSamplesPerSec=2.741477950036655, CurrSamplesPerSec=2.6721034998737787, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 158/1233389 [03:53<511:27:57,  1.49s/it]
+
+  0% 160/1233389 [03:56<514:44:35,  1.50s/it]
+[2022-12-08 17:59:37,637] [INFO] [logging.py:68:log_dist] [Rank 0] step=160, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 17:59:37,644] [INFO] [timer.py:197:stop] 0/160, RunningAvgSamplesPerSec=2.740004076081467, CurrSamplesPerSec=2.636390807494878, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 161/1233389 [03:57<522:36:56,  1.53s/it]
+[2022-12-08 17:59:39,223] [INFO] [timer.py:197:stop] 0/161, RunningAvgSamplesPerSec=2.738666883930336, CurrSamplesPerSec=2.542611109932378, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 162/1233389 [03:59<521:54:43,  1.52s/it]
+
+  0% 164/1233389 [04:02<516:22:45,  1.51s/it]
+[2022-12-08 17:59:43,726] [INFO] [timer.py:197:stop] 0/164, RunningAvgSamplesPerSec=2.7373977364153403, CurrSamplesPerSec=2.688727937313717, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 165/1233389 [04:03<517:07:12,  1.51s/it]
+{'loss': 0.7409, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 166/1233389 [04:05<518:07:19,  1.51s/it]
+
+  0% 168/1233389 [04:08<515:39:52,  1.51s/it]
+[2022-12-08 17:59:49,757] [INFO] [timer.py:197:stop] 0/168, RunningAvgSamplesPerSec=2.735457595737637, CurrSamplesPerSec=2.678298177896287, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 169/1233389 [04:09<515:25:19,  1.50s/it]
+[2022-12-08 17:59:52,857] [INFO] [logging.py:68:log_dist] [Rank 0] step=170, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+
+  0% 170/1233389 [04:11<525:33:59,  1.53s/it]
+{'loss': 0.766, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 172/1233389 [04:14<526:13:21,  1.54s/it]
+
+  0% 173/1233389 [04:16<523:51:28,  1.53s/it]
+[2022-12-08 17:59:57,453] [INFO] [timer.py:197:stop] 0/173, RunningAvgSamplesPerSec=2.731509216354522, CurrSamplesPerSec=2.649622879357718, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 174/1233389 [04:17<520:58:49,  1.52s/it]
+[2022-12-08 18:00:00,444] [INFO] [timer.py:197:stop] 0/175, RunningAvgSamplesPerSec=2.7309103775616173, CurrSamplesPerSec=2.691268320665056, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 176/1233389 [04:20<516:46:00,  1.51s/it]
+
+  0% 177/1233389 [04:21<515:16:51,  1.50s/it]
+[2022-12-08 18:00:03,439] [INFO] [timer.py:197:stop] 0/177, RunningAvgSamplesPerSec=2.7302975051521514, CurrSamplesPerSec=2.682683141095772, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 178/1233389 [04:23<515:52:28,  1.51s/it]
+
+  0% 180/1233389 [04:26<513:49:07,  1.50s/it]
+[2022-12-08 18:00:07,932] [INFO] [logging.py:68:log_dist] [Rank 0] step=180, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:00:07,939] [INFO] [timer.py:197:stop] 0/180, RunningAvgSamplesPerSec=2.7293002970294165, CurrSamplesPerSec=2.6883488011147443, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 181/1233389 [04:27<513:55:31,  1.50s/it]
+[2022-12-08 18:00:09,440] [INFO] [timer.py:197:stop] 0/181, RunningAvgSamplesPerSec=2.728992513075636, CurrSamplesPerSec=2.6752911017936993, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 182/1233389 [04:29<514:43:09,  1.50s/it]
+
+  0% 184/1233389 [04:32<515:15:54,  1.50s/it]
+
+  0% 185/1233389 [04:34<515:33:58,  1.51s/it]
+[2022-12-08 18:00:15,467] [INFO] [timer.py:197:stop] 0/185, RunningAvgSamplesPerSec=2.727469329207442, CurrSamplesPerSec=2.660707469153747, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7532, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 186/1233389 [04:35<514:48:16,  1.50s/it]
+
+  0% 188/1233389 [04:38<514:37:07,  1.50s/it]
+
+  0% 189/1233389 [04:40<513:52:03,  1.50s/it]
+[2022-12-08 18:00:21,462] [INFO] [timer.py:197:stop] 0/189, RunningAvgSamplesPerSec=2.7263932129333184, CurrSamplesPerSec=2.6822426694118118, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:00:22,954] [INFO] [logging.py:68:log_dist] [Rank 0] step=190, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+
+  0% 190/1233389 [04:41<513:45:44,  1.50s/it]
+{'loss': 0.7078, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 192/1233389 [04:44<513:24:24,  1.50s/it]
+
+  0% 193/1233389 [04:46<515:35:01,  1.51s/it]
+[2022-12-08 18:00:27,479] [INFO] [timer.py:197:stop] 0/193, RunningAvgSamplesPerSec=2.725105834886905, CurrSamplesPerSec=2.6375977590219084, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 194/1233389 [04:47<518:22:11,  1.51s/it]
+[2022-12-08 18:00:30,533] [INFO] [timer.py:197:stop] 0/195, RunningAvgSamplesPerSec=2.7240534229909934, CurrSamplesPerSec=2.6347566363933463, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 196/1233389 [04:50<518:18:07,  1.51s/it]
+
+  0% 197/1233389 [04:52<515:06:35,  1.50s/it]
+[2022-12-08 18:00:33,522] [INFO] [timer.py:197:stop] 0/197, RunningAvgSamplesPerSec=2.7236448334838994, CurrSamplesPerSec=2.704948959397267, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 198/1233389 [04:53<514:35:59,  1.50s/it]
+
+  0% 199/1233389 [04:55<514:26:10,  1.50s/it]
+[2022-12-08 18:00:38,340] [INFO] [logging.py:68:log_dist] [Rank 0] step=200, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:00:38,347] [INFO] [timer.py:197:stop] 0/200, RunningAvgSamplesPerSec=2.719817463188306, CurrSamplesPerSec=2.194983512650593, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 201/1233389 [04:58<538:18:17,  1.57s/it]
+
+  0% 202/1233389 [04:59<531:07:22,  1.55s/it]
+[2022-12-08 18:00:41,356] [INFO] [timer.py:197:stop] 0/202, RunningAvgSamplesPerSec=2.7192769349488843, CurrSamplesPerSec=2.6702449854966357, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 203/1233389 [05:01<526:17:29,  1.54s/it]
+
+  0% 205/1233389 [05:04<520:35:13,  1.52s/it]
+[2022-12-08 18:00:45,865] [INFO] [timer.py:197:stop] 0/205, RunningAvgSamplesPerSec=2.718492724193589, CurrSamplesPerSec=2.657462316934535, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 206/1233389 [05:05<519:44:59,  1.52s/it]
+[2022-12-08 18:00:47,376] [INFO] [timer.py:197:stop] 0/206, RunningAvgSamplesPerSec=2.718179509062172, CurrSamplesPerSec=2.6560571397180155, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 207/1233389 [05:07<518:42:04,  1.51s/it]
+
+  0% 209/1233389 [05:10<515:12:28,  1.50s/it]
+
+  0% 210/1233389 [05:11<515:42:40,  1.51s/it]
+[2022-12-08 18:00:53,375] [INFO] [logging.py:68:log_dist] [Rank 0] step=210, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:00:53,382] [INFO] [timer.py:197:stop] 0/210, RunningAvgSamplesPerSec=2.717237878869326, CurrSamplesPerSec=2.6569038544801282, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6907, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 211/1233389 [05:13<515:17:56,  1.50s/it]
+
+  0% 213/1233389 [05:16<517:06:40,  1.51s/it]
+
+  0% 214/1233389 [05:17<516:15:23,  1.51s/it]
+[2022-12-08 18:00:59,412] [INFO] [timer.py:197:stop] 0/214, RunningAvgSamplesPerSec=2.7161376590333184, CurrSamplesPerSec=2.6700715993947894, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:01:00,915] [INFO] [timer.py:197:stop] 0/215, RunningAvgSamplesPerSec=2.715896032976252, CurrSamplesPerSec=2.665623966760286, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 215/1233389 [05:19<515:53:55,  1.51s/it]
+
+  0% 217/1233389 [05:22<515:33:08,  1.51s/it]
+
+  0% 218/1233389 [05:23<516:29:25,  1.51s/it]
+[2022-12-08 18:01:05,435] [INFO] [timer.py:197:stop] 0/218, RunningAvgSamplesPerSec=2.715134092375983, CurrSamplesPerSec=2.6482573295738043, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 219/1233389 [05:25<516:18:14,  1.51s/it]
+[2022-12-08 18:01:08,433] [INFO] [logging.py:68:log_dist] [Rank 0] step=220, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:01:08,440] [INFO] [timer.py:197:stop] 0/220, RunningAvgSamplesPerSec=2.7147004902550793, CurrSamplesPerSec=2.675181896313919, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 221/1233389 [05:28<515:17:18,  1.50s/it]
+
+  0% 222/1233389 [05:29<515:05:10,  1.50s/it]
+[2022-12-08 18:01:11,446] [INFO] [timer.py:197:stop] 0/222, RunningAvgSamplesPerSec=2.7142853158137936, CurrSamplesPerSec=2.6681700806515867, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 223/1233389 [05:31<515:19:59,  1.50s/it]
+
+  0% 225/1233389 [05:34<515:11:12,  1.50s/it]
+[2022-12-08 18:01:15,958] [INFO] [timer.py:197:stop] 0/225, RunningAvgSamplesPerSec=2.7136124441391853, CurrSamplesPerSec=2.664573194932532, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 226/1233389 [05:36<517:47:54,  1.51s/it]
+[2022-12-08 18:01:17,488] [INFO] [timer.py:197:stop] 0/226, RunningAvgSamplesPerSec=2.7132083642744624, CurrSamplesPerSec=2.6260076119901052, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 227/1233389 [05:37<518:55:38,  1.51s/it]
+
+  0% 229/1233389 [05:40<522:14:38,  1.52s/it]
+
+  0% 230/1233389 [05:42<519:41:03,  1.52s/it]
+[2022-12-08 18:01:23,584] [INFO] [logging.py:68:log_dist] [Rank 0] step=230, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:01:23,591] [INFO] [timer.py:197:stop] 0/230, RunningAvgSamplesPerSec=2.711692333069005, CurrSamplesPerSec=2.67238228735266, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7477, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 231/1233389 [05:43<518:17:27,  1.51s/it]
+
+  0% 233/1233389 [05:46<515:37:57,  1.51s/it]
+
+  0% 234/1233389 [05:48<515:00:34,  1.50s/it]
+[2022-12-08 18:01:29,591] [INFO] [timer.py:197:stop] 0/234, RunningAvgSamplesPerSec=2.7110296332441473, CurrSamplesPerSec=2.673699972557358, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 235/1233389 [05:49<514:31:07,  1.50s/it]
+{'loss': 0.7532, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 237/1233389 [05:52<515:20:02,  1.50s/it]
+
+  0% 238/1233389 [05:54<515:35:04,  1.51s/it]
+[2022-12-08 18:01:35,609] [INFO] [timer.py:197:stop] 0/238, RunningAvgSamplesPerSec=2.7102525481892124, CurrSamplesPerSec=2.6610041422119246, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 239/1233389 [05:55<515:31:17,  1.50s/it]
+[2022-12-08 18:01:38,610] [INFO] [logging.py:68:log_dist] [Rank 0] step=240, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:01:38,617] [INFO] [timer.py:197:stop] 0/240, RunningAvgSamplesPerSec=2.7098873665285628, CurrSamplesPerSec=2.6710450629765954, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 241/1233389 [05:58<514:47:29,  1.50s/it]
+
+  0% 242/1233389 [06:00<514:45:30,  1.50s/it]
+[2022-12-08 18:01:41,619] [INFO] [timer.py:197:stop] 0/242, RunningAvgSamplesPerSec=2.7095789061343845, CurrSamplesPerSec=2.6675901430975064, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 243/1233389 [06:01<515:48:36,  1.51s/it]
+
+  0% 245/1233389 [06:04<515:35:18,  1.51s/it]
+[2022-12-08 18:01:46,139] [INFO] [timer.py:197:stop] 0/245, RunningAvgSamplesPerSec=2.7089527625405676, CurrSamplesPerSec=2.6585837380502344, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 246/1233389 [06:06<517:00:14,  1.51s/it]
+[2022-12-08 18:01:47,658] [INFO] [timer.py:197:stop] 0/246, RunningAvgSamplesPerSec=2.7086740229338058, CurrSamplesPerSec=2.642599375783126, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 247/1233389 [06:07<517:20:05,  1.51s/it]
+
+  0% 249/1233389 [06:10<517:35:48,  1.51s/it]
+
+  0% 250/1233389 [06:12<518:17:42,  1.51s/it]
+[2022-12-08 18:01:53,706] [INFO] [logging.py:68:log_dist] [Rank 0] step=250, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:01:53,713] [INFO] [timer.py:197:stop] 0/250, RunningAvgSamplesPerSec=2.707684037287882, CurrSamplesPerSec=2.6411483313846777, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7207, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 251/1233389 [06:13<517:34:35,  1.51s/it]
+
+  0% 253/1233389 [06:16<516:26:08,  1.51s/it]
+
+  0% 254/1233389 [06:18<516:27:51,  1.51s/it]
+[2022-12-08 18:01:59,735] [INFO] [timer.py:197:stop] 0/254, RunningAvgSamplesPerSec=2.7069690642390185, CurrSamplesPerSec=2.658237904238438, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 255/1233389 [06:19<515:55:18,  1.51s/it]
+{'loss': 0.7412, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 257/1233389 [06:22<517:07:34,  1.51s/it]
+
+  0% 258/1233389 [06:24<517:47:51,  1.51s/it]
+
+  0% 259/1233389 [06:25<526:22:27,  1.54s/it]
+[2022-12-08 18:02:07,375] [INFO] [timer.py:197:stop] 0/259, RunningAvgSamplesPerSec=2.7053203930375784, CurrSamplesPerSec=2.5137501576973222, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:02:08,895] [INFO] [logging.py:68:log_dist] [Rank 0] step=260, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:02:08,902] [INFO] [timer.py:197:stop] 0/260, RunningAvgSamplesPerSec=2.7050048674345044, CurrSamplesPerSec=2.626283852280049, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 260/1233389 [06:27<525:21:15,  1.53s/it]
+
+  0% 262/1233389 [06:30<523:10:01,  1.53s/it]
+
+  0% 263/1233389 [06:32<521:49:04,  1.52s/it]
+[2022-12-08 18:02:13,460] [INFO] [timer.py:197:stop] 0/263, RunningAvgSamplesPerSec=2.7042660197262762, CurrSamplesPerSec=2.6477662433009708, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 264/1233389 [06:33<519:31:48,  1.52s/it]
+[2022-12-08 18:02:16,468] [INFO] [timer.py:197:stop] 0/265, RunningAvgSamplesPerSec=2.7039677429352733, CurrSamplesPerSec=2.6609450555306724, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 266/1233389 [06:36<518:49:45,  1.51s/it]
+
+  0% 267/1233389 [06:38<517:48:49,  1.51s/it]
+[2022-12-08 18:02:19,490] [INFO] [timer.py:197:stop] 0/267, RunningAvgSamplesPerSec=2.7035898430961165, CurrSamplesPerSec=2.6636260093055038, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 268/1233389 [06:39<517:17:59,  1.51s/it]
+
+  0% 270/1233389 [06:42<516:08:50,  1.51s/it]
+[2022-12-08 18:02:23,997] [INFO] [logging.py:68:log_dist] [Rank 0] step=270, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:02:24,004] [INFO] [timer.py:197:stop] 0/270, RunningAvgSamplesPerSec=2.703145648849627, CurrSamplesPerSec=2.6653254158867683, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 271/1233389 [06:44<515:44:30,  1.51s/it]
+[2022-12-08 18:02:25,506] [INFO] [timer.py:197:stop] 0/271, RunningAvgSamplesPerSec=2.703026820072072, CurrSamplesPerSec=2.6715529059232805, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 272/1233389 [06:45<515:50:01,  1.51s/it]
+
+  0% 274/1233389 [06:48<515:43:54,  1.51s/it]
+
+  0% 275/1233389 [06:50<515:49:20,  1.51s/it]
+[2022-12-08 18:02:31,530] [INFO] [timer.py:197:stop] 0/275, RunningAvgSamplesPerSec=2.7024125773731975, CurrSamplesPerSec=2.6606226572961686, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7342, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 276/1233389 [06:51<517:02:34,  1.51s/it]
+
+  0% 278/1233389 [06:54<517:37:21,  1.51s/it]
+
+  0% 279/1233389 [06:56<518:56:47,  1.52s/it]
+[2022-12-08 18:02:37,598] [INFO] [timer.py:197:stop] 0/279, RunningAvgSamplesPerSec=2.701559473300239, CurrSamplesPerSec=2.634233318752102, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:02:39,099] [INFO] [logging.py:68:log_dist] [Rank 0] step=280, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:02:39,106] [INFO] [timer.py:197:stop] 0/280, RunningAvgSamplesPerSec=2.701397229683045, CurrSamplesPerSec=2.657193787976816, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 280/1233389 [06:57<518:15:16,  1.51s/it]
+
+  0% 282/1233389 [07:00<518:20:39,  1.51s/it]
+
+  0% 283/1233389 [07:02<518:02:36,  1.51s/it]
+[2022-12-08 18:02:43,646] [INFO] [timer.py:197:stop] 0/283, RunningAvgSamplesPerSec=2.7008573388965895, CurrSamplesPerSec=2.658431239944059, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 284/1233389 [07:03<518:09:55,  1.51s/it]
+[2022-12-08 18:02:46,666] [INFO] [timer.py:197:stop] 0/285, RunningAvgSamplesPerSec=2.700535845577294, CurrSamplesPerSec=2.66278810656729, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 286/1233389 [07:06<517:02:51,  1.51s/it]
+
+  0% 287/1233389 [07:08<517:13:07,  1.51s/it]
+[2022-12-08 18:02:49,683] [INFO] [timer.py:197:stop] 0/287, RunningAvgSamplesPerSec=2.700242003245549, CurrSamplesPerSec=2.653289422910259, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 288/1233389 [07:09<517:57:47,  1.51s/it]
+
+  0% 290/1233389 [07:12<518:09:48,  1.51s/it]
+[2022-12-08 18:02:54,221] [INFO] [logging.py:68:log_dist] [Rank 0] step=290, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:02:54,228] [INFO] [timer.py:197:stop] 0/290, RunningAvgSamplesPerSec=2.699665788007587, CurrSamplesPerSec=2.651303621162873, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 291/1233389 [07:14<518:16:54,  1.51s/it]
+[2022-12-08 18:02:55,742] [INFO] [timer.py:197:stop] 0/291, RunningAvgSamplesPerSec=2.69949909891824, CurrSamplesPerSec=2.6523343071239323, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 292/1233389 [07:15<526:47:46,  1.54s/it]
+
+  0% 293/1233389 [07:17<526:03:00,  1.54s/it]
+
+  0% 295/1233389 [07:20<523:13:05,  1.53s/it]
+[2022-12-08 18:03:01,908] [INFO] [timer.py:197:stop] 0/295, RunningAvgSamplesPerSec=2.6980920364939394, CurrSamplesPerSec=2.640419666616095, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 296/1233389 [07:21<522:58:17,  1.53s/it]
+[2022-12-08 18:03:03,434] [INFO] [timer.py:197:stop] 0/296, RunningAvgSamplesPerSec=2.6978645701496835, CurrSamplesPerSec=2.6328290425065304, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 297/1233389 [07:23<521:27:05,  1.52s/it]
+
+  0% 299/1233389 [07:26<517:19:35,  1.51s/it]
+
+  0% 300/1233389 [07:28<552:44:11,  1.61s/it]
+[2022-12-08 18:03:09,792] [INFO] [logging.py:68:log_dist] [Rank 0] step=300, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:03:09,799] [INFO] [timer.py:197:stop] 0/300, RunningAvgSamplesPerSec=2.695288492327431, CurrSamplesPerSec=2.15987420700281, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6671, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 301/1233389 [07:29<542:29:59,  1.58s/it]
+
+  0% 303/1233389 [07:32<530:16:34,  1.55s/it]
+
+  0% 304/1233389 [07:34<526:37:12,  1.54s/it]
+[2022-12-08 18:03:15,854] [INFO] [timer.py:197:stop] 0/304, RunningAvgSamplesPerSec=2.69466460374858, CurrSamplesPerSec=2.6499187597206793, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 305/1233389 [07:35<523:34:38,  1.53s/it]
+{'loss': 0.6338, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 307/1233389 [07:38<520:36:08,  1.52s/it]
+
+  0% 308/1233389 [07:40<519:44:32,  1.52s/it]
+[2022-12-08 18:03:21,896] [INFO] [timer.py:197:stop] 0/308, RunningAvgSamplesPerSec=2.694134562881101, CurrSamplesPerSec=2.6517671001766137, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 309/1233389 [07:41<518:53:57,  1.51s/it]
+[2022-12-08 18:03:24,912] [INFO] [logging.py:68:log_dist] [Rank 0] step=310, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:03:24,919] [INFO] [timer.py:197:stop] 0/310, RunningAvgSamplesPerSec=2.6938550310155778, CurrSamplesPerSec=2.6477077430369356, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 310/1233389 [07:43<518:46:17,  1.51s/it]
+
+  0% 312/1233389 [07:46<519:29:30,  1.52s/it]
+[2022-12-08 18:03:27,955] [INFO] [timer.py:197:stop] 0/312, RunningAvgSamplesPerSec=2.6935211916353032, CurrSamplesPerSec=2.6320430208066306, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 313/1233389 [07:48<518:08:26,  1.51s/it]
+
+  0% 314/1233389 [07:49<517:38:52,  1.51s/it]
+[2022-12-08 18:03:32,481] [INFO] [timer.py:197:stop] 0/315, RunningAvgSamplesPerSec=2.6931689560974856, CurrSamplesPerSec=2.647559414669187, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 316/1233389 [07:52<517:40:43,  1.51s/it]
+[2022-12-08 18:03:33,990] [INFO] [timer.py:197:stop] 0/316, RunningAvgSamplesPerSec=2.6930610968474973, CurrSamplesPerSec=2.659720442043429, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 317/1233389 [07:54<518:07:48,  1.51s/it]
+
+  0% 318/1233389 [07:55<517:16:48,  1.51s/it]
+
+  0% 320/1233389 [07:58<517:19:39,  1.51s/it]
+[2022-12-08 18:03:40,025] [INFO] [logging.py:68:log_dist] [Rank 0] step=320, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:03:40,032] [INFO] [timer.py:197:stop] 0/320, RunningAvgSamplesPerSec=2.692563378989587, CurrSamplesPerSec=2.656731355138825, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 321/1233389 [08:00<517:34:06,  1.51s/it]
+[2022-12-08 18:03:41,545] [INFO] [timer.py:197:stop] 0/321, RunningAvgSamplesPerSec=2.692438798749242, CurrSamplesPerSec=2.653398526882217, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 322/1233389 [08:01<518:16:18,  1.51s/it]
+
+  0% 324/1233389 [08:04<519:33:51,  1.52s/it]
+
+  0% 325/1233389 [08:06<527:25:54,  1.54s/it]
+[2022-12-08 18:03:47,695] [INFO] [timer.py:197:stop] 0/325, RunningAvgSamplesPerSec=2.6913521582685056, CurrSamplesPerSec=2.5162735274245085, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7694, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 326/1233389 [08:07<524:25:39,  1.53s/it]
+
+  0% 328/1233389 [08:10<521:34:35,  1.52s/it]
+
+  0% 329/1233389 [08:12<520:02:34,  1.52s/it]
+[2022-12-08 18:03:53,745] [INFO] [timer.py:197:stop] 0/329, RunningAvgSamplesPerSec=2.6908637828609336, CurrSamplesPerSec=2.658229059486715, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:03:55,245] [INFO] [logging.py:68:log_dist] [Rank 0] step=330, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:03:55,252] [INFO] [timer.py:197:stop] 0/330, RunningAvgSamplesPerSec=2.690765374132294, CurrSamplesPerSec=2.6589671669249473, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 330/1233389 [08:13<518:55:10,  1.52s/it]
+
+  0% 332/1233389 [08:16<518:59:46,  1.52s/it]
+
+  0% 333/1233389 [08:18<516:47:18,  1.51s/it]
+[2022-12-08 18:03:59,779] [INFO] [timer.py:197:stop] 0/333, RunningAvgSamplesPerSec=2.6904668207219338, CurrSamplesPerSec=2.683827241623566, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 334/1233389 [08:19<517:16:46,  1.51s/it]
+[2022-12-08 18:04:02,816] [INFO] [timer.py:197:stop] 0/335, RunningAvgSamplesPerSec=2.6901625864478773, CurrSamplesPerSec=2.63268237646073, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 336/1233389 [08:22<519:12:55,  1.52s/it]
+
+  0% 337/1233389 [08:24<519:03:10,  1.52s/it]
+[2022-12-08 18:04:05,850] [INFO] [timer.py:197:stop] 0/337, RunningAvgSamplesPerSec=2.6898841176844113, CurrSamplesPerSec=2.6475418670602973, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 338/1233389 [08:25<519:17:43,  1.52s/it]
+
+  0% 340/1233389 [08:28<519:13:35,  1.52s/it]
+[2022-12-08 18:04:10,397] [INFO] [logging.py:68:log_dist] [Rank 0] step=340, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:04:10,404] [INFO] [timer.py:197:stop] 0/340, RunningAvgSamplesPerSec=2.6894391391597194, CurrSamplesPerSec=2.6617657511296136, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 341/1233389 [08:30<519:27:27,  1.52s/it]
+[2022-12-08 18:04:11,922] [INFO] [timer.py:197:stop] 0/341, RunningAvgSamplesPerSec=2.689300999102029, CurrSamplesPerSec=2.6434087922265213, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 342/1233389 [08:31<519:45:33,  1.52s/it]
+
+  0% 343/1233389 [08:33<519:01:51,  1.52s/it]
+
+  0% 345/1233389 [08:36<521:05:37,  1.52s/it]
+[2022-12-08 18:04:18,013] [INFO] [timer.py:197:stop] 0/345, RunningAvgSamplesPerSec=2.688627099809318, CurrSamplesPerSec=2.652374980949689, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7742, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 346/1233389 [08:38<520:26:21,  1.52s/it]
+
+  0% 347/1233389 [08:39<520:33:15,  1.52s/it]
+
+  0% 349/1233389 [08:42<520:01:12,  1.52s/it]
+[2022-12-08 18:04:24,081] [INFO] [timer.py:197:stop] 0/349, RunningAvgSamplesPerSec=2.688097231706154, CurrSamplesPerSec=2.6407683613044663, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:04:25,598] [INFO] [logging.py:68:log_dist] [Rank 0] step=350, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+
+  0% 350/1233389 [08:44<520:34:08,  1.52s/it]
+{'loss': 0.6155, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 351/1233389 [08:45<521:56:27,  1.52s/it]
+
+  0% 353/1233389 [08:48<522:10:34,  1.52s/it]
+
+  0% 354/1233389 [08:50<523:32:33,  1.53s/it]
+[2022-12-08 18:04:31,724] [INFO] [timer.py:197:stop] 0/354, RunningAvgSamplesPerSec=2.6871547584734263, CurrSamplesPerSec=2.6063941823333896, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:04:33,241] [INFO] [timer.py:197:stop] 0/355, RunningAvgSamplesPerSec=2.6870263721700436, CurrSamplesPerSec=2.6425839750302105, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 355/1233389 [08:51<522:20:47,  1.53s/it]
+
+  0% 357/1233389 [08:54<524:39:31,  1.53s/it]
+
+  0% 358/1233389 [08:56<527:25:13,  1.54s/it]
+[2022-12-08 18:04:37,875] [INFO] [timer.py:197:stop] 0/358, RunningAvgSamplesPerSec=2.6862283292145177, CurrSamplesPerSec=2.571509324877519, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 359/1233389 [08:58<536:58:45,  1.57s/it]
+[2022-12-08 18:04:41,067] [INFO] [logging.py:68:log_dist] [Rank 0] step=360, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:04:41,075] [INFO] [timer.py:197:stop] 0/360, RunningAvgSamplesPerSec=2.6851530723207326, CurrSamplesPerSec=2.559848055893899, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 360/1233389 [08:59<536:48:06,  1.57s/it]
+
+  0% 362/1233389 [09:02<536:59:30,  1.57s/it]
+
+  0% 363/1233389 [09:04<537:34:10,  1.57s/it]
+[2022-12-08 18:04:45,790] [INFO] [timer.py:197:stop] 0/363, RunningAvgSamplesPerSec=2.683982025079284, CurrSamplesPerSec=2.5474984591757885, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 364/1233389 [09:05<536:55:01,  1.57s/it]
+[2022-12-08 18:04:48,914] [INFO] [timer.py:197:stop] 0/365, RunningAvgSamplesPerSec=2.683304478729944, CurrSamplesPerSec=2.5685369678089622, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 366/1233389 [09:09<536:05:59,  1.57s/it]
+
+  0% 367/1233389 [09:10<536:39:30,  1.57s/it]
+[2022-12-08 18:04:52,049] [INFO] [timer.py:197:stop] 0/367, RunningAvgSamplesPerSec=2.682589554245043, CurrSamplesPerSec=2.5518207478896833, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 368/1233389 [09:12<536:54:57,  1.57s/it]
+
+  0% 369/1233389 [09:13<538:07:50,  1.57s/it]
+[2022-12-08 18:04:56,761] [INFO] [logging.py:68:log_dist] [Rank 0] step=370, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:04:56,769] [INFO] [timer.py:197:stop] 0/370, RunningAvgSamplesPerSec=2.6814376676224683, CurrSamplesPerSec=2.553401427219941, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 371/1233389 [09:16<539:25:47,  1.57s/it]
+
+  0% 372/1233389 [09:18<538:36:15,  1.57s/it]
+[2022-12-08 18:04:59,920] [INFO] [timer.py:197:stop] 0/372, RunningAvgSamplesPerSec=2.6806637722724793, CurrSamplesPerSec=2.5586889530175427, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 373/1233389 [09:20<538:21:54,  1.57s/it]
+
+  0% 374/1233389 [09:21<537:30:26,  1.57s/it]
+[2022-12-08 18:05:04,606] [INFO] [timer.py:197:stop] 0/375, RunningAvgSamplesPerSec=2.6796977436160607, CurrSamplesPerSec=2.581191560656913, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 376/1233389 [09:24<535:18:10,  1.56s/it]
+
+  0% 377/1233389 [09:26<534:57:37,  1.56s/it]
+[2022-12-08 18:05:07,725] [INFO] [timer.py:197:stop] 0/377, RunningAvgSamplesPerSec=2.6791144544619057, CurrSamplesPerSec=2.569766807807751, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 378/1233389 [09:27<533:29:10,  1.56s/it]
+
+  0% 380/1233389 [09:30<533:05:12,  1.56s/it]
+[2022-12-08 18:05:12,379] [INFO] [logging.py:68:log_dist] [Rank 0] step=380, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:05:12,386] [INFO] [timer.py:197:stop] 0/380, RunningAvgSamplesPerSec=2.6782978227267193, CurrSamplesPerSec=2.5855824158617744, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 381/1233389 [09:32<532:15:49,  1.55s/it]
+[2022-12-08 18:05:13,934] [INFO] [timer.py:197:stop] 0/381, RunningAvgSamplesPerSec=2.67806553504667, CurrSamplesPerSec=2.59305536257254, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 382/1233389 [09:34<531:24:23,  1.55s/it]
+
+  0% 383/1233389 [09:35<530:43:03,  1.55s/it]
+
+  0% 385/1233389 [09:38<529:01:16,  1.54s/it]
+[2022-12-08 18:05:20,107] [INFO] [timer.py:197:stop] 0/385, RunningAvgSamplesPerSec=2.6772011757603016, CurrSamplesPerSec=2.6126797663895385, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.599, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 386/1233389 [09:40<530:39:02,  1.55s/it]
+
+  0% 387/1233389 [09:41<529:49:33,  1.55s/it]
+
+  0% 389/1233389 [09:44<538:24:38,  1.57s/it]
+
+  0% 390/1233389 [09:46<543:51:20,  1.59s/it]
+[2022-12-08 18:05:28,002] [INFO] [logging.py:68:log_dist] [Rank 0] step=390, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:05:28,009] [INFO] [timer.py:197:stop] 0/390, RunningAvgSamplesPerSec=2.6752943793712527, CurrSamplesPerSec=2.46703738167137, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6578, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 391/1233389 [09:48<540:30:16,  1.58s/it]
+
+  0% 392/1233389 [09:49<536:09:49,  1.57s/it]
+
+  0% 393/1233389 [09:51<533:59:49,  1.56s/it]
+
+  0% 395/1233389 [09:54<534:59:49,  1.56s/it]
+[2022-12-08 18:05:35,773] [INFO] [timer.py:197:stop] 0/395, RunningAvgSamplesPerSec=2.6740759086462944, CurrSamplesPerSec=2.5579017212442916, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7055, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 396/1233389 [09:55<532:28:57,  1.55s/it]
+
+  0% 397/1233389 [09:57<530:25:26,  1.55s/it]
+
+  0% 399/1233389 [10:00<528:19:46,  1.54s/it]
+
+  0% 400/1233389 [10:02<559:01:11,  1.63s/it]
+[2022-12-08 18:05:43,751] [INFO] [logging.py:68:log_dist] [Rank 0] step=400, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:05:43,758] [INFO] [timer.py:197:stop] 0/400, RunningAvgSamplesPerSec=2.6719072285599674, CurrSamplesPerSec=2.1759090272409876, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6123, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 401/1233389 [10:03<548:26:38,  1.60s/it]
+
+  0% 402/1233389 [10:05<541:24:07,  1.58s/it]
+
+  0% 404/1233389 [10:08<534:32:46,  1.56s/it]
+[2022-12-08 18:05:49,902] [INFO] [timer.py:197:stop] 0/404, RunningAvgSamplesPerSec=2.6712936214915937, CurrSamplesPerSec=2.596977285525749, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:05:51,430] [INFO] [timer.py:197:stop] 0/405, RunningAvgSamplesPerSec=2.6711703239812206, CurrSamplesPerSec=2.622509902086617, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 405/1233389 [10:09<531:14:42,  1.55s/it]
+
+  0% 406/1233389 [10:11<528:25:18,  1.54s/it]
+
+  0% 408/1233389 [10:14<524:42:16,  1.53s/it]
+[2022-12-08 18:05:55,996] [INFO] [timer.py:197:stop] 0/408, RunningAvgSamplesPerSec=2.6708995354533607, CurrSamplesPerSec=2.6309376850430053, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 409/1233389 [10:16<523:20:01,  1.53s/it]
+[2022-12-08 18:05:59,036] [INFO] [logging.py:68:log_dist] [Rank 0] step=410, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:05:59,044] [INFO] [timer.py:197:stop] 0/410, RunningAvgSamplesPerSec=2.6707021286644252, CurrSamplesPerSec=2.622247570306418, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 410/1233389 [10:17<523:25:40,  1.53s/it]
+
+  0% 412/1233389 [10:20<522:59:49,  1.53s/it]
+[2022-12-08 18:06:02,094] [INFO] [timer.py:197:stop] 0/412, RunningAvgSamplesPerSec=2.670499032444617, CurrSamplesPerSec=2.6238797982311364, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 413/1233389 [10:22<523:15:28,  1.53s/it]
+
+  0% 414/1233389 [10:23<521:59:21,  1.52s/it]
+[2022-12-08 18:06:06,660] [INFO] [timer.py:197:stop] 0/415, RunningAvgSamplesPerSec=2.670231100731727, CurrSamplesPerSec=2.636335708681505, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 415/1233389 [10:25<521:38:41,  1.52s/it]
+[2022-12-08 18:06:08,192] [INFO] [timer.py:197:stop] 0/416, RunningAvgSamplesPerSec=2.6701060085532617, CurrSamplesPerSec=2.6194259070486585, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 417/1233389 [10:28<523:01:12,  1.53s/it]
+
+  0% 418/1233389 [10:29<522:41:58,  1.53s/it]
+
+  0% 419/1233389 [10:31<521:39:17,  1.52s/it]
+[2022-12-08 18:06:14,283] [INFO] [logging.py:68:log_dist] [Rank 0] step=420, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:06:14,291] [INFO] [timer.py:197:stop] 0/420, RunningAvgSamplesPerSec=2.6697092259894513, CurrSamplesPerSec=2.6235482669901766, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 421/1233389 [10:34<525:40:52,  1.53s/it]
+[2022-12-08 18:06:15,849] [INFO] [timer.py:197:stop] 0/421, RunningAvgSamplesPerSec=2.669476297186021, CurrSamplesPerSec=2.5755461816181104, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 422/1233389 [10:36<534:03:42,  1.56s/it]
+
+  0% 423/1233389 [10:37<534:02:07,  1.56s/it]
+
+  0% 425/1233389 [10:40<528:30:03,  1.54s/it]
+[2022-12-08 18:06:22,079] [INFO] [timer.py:197:stop] 0/425, RunningAvgSamplesPerSec=2.66854182634749, CurrSamplesPerSec=2.6203243150377378, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7051, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 426/1233389 [10:42<527:07:36,  1.54s/it]
+
+  0% 427/1233389 [10:43<526:03:35,  1.54s/it]
+
+  0% 429/1233389 [10:46<524:43:25,  1.53s/it]
+[2022-12-08 18:06:28,195] [INFO] [timer.py:197:stop] 0/429, RunningAvgSamplesPerSec=2.6681096239656283, CurrSamplesPerSec=2.6238125004593997, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:06:29,720] [INFO] [logging.py:68:log_dist] [Rank 0] step=430, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+
+  0% 430/1233389 [10:48<524:47:15,  1.53s/it]
+{'loss': 0.7677, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 431/1233389 [10:49<525:11:43,  1.53s/it]
+
+  0% 432/1233389 [10:51<524:58:41,  1.53s/it]
+
+  0% 434/1233389 [10:54<525:28:22,  1.53s/it]
+[2022-12-08 18:06:35,864] [INFO] [timer.py:197:stop] 0/434, RunningAvgSamplesPerSec=2.667468682014294, CurrSamplesPerSec=2.600594205726876, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:06:37,393] [INFO] [timer.py:197:stop] 0/435, RunningAvgSamplesPerSec=2.6673596239062323, CurrSamplesPerSec=2.6210660885408066, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 435/1233389 [10:55<524:56:37,  1.53s/it]
+
+  0% 436/1233389 [10:57<525:47:16,  1.54s/it]
+
+  0% 438/1233389 [11:00<525:08:07,  1.53s/it]
+[2022-12-08 18:06:41,997] [INFO] [timer.py:197:stop] 0/438, RunningAvgSamplesPerSec=2.6669814873203, CurrSamplesPerSec=2.6188833151635715, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 439/1233389 [11:02<526:11:04,  1.54s/it]
+[2022-12-08 18:06:45,073] [INFO] [logging.py:68:log_dist] [Rank 0] step=440, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:06:45,081] [INFO] [timer.py:197:stop] 0/440, RunningAvgSamplesPerSec=2.666669656881727, CurrSamplesPerSec=2.603227171898604, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 440/1233389 [11:03<526:33:35,  1.54s/it]
+
+  0% 442/1233389 [11:06<525:51:20,  1.54s/it]
+[2022-12-08 18:06:48,147] [INFO] [timer.py:197:stop] 0/442, RunningAvgSamplesPerSec=2.6664322413772608, CurrSamplesPerSec=2.6137087312513563, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 443/1233389 [11:08<524:31:10,  1.53s/it]
+
+  0% 444/1233389 [11:09<523:43:12,  1.53s/it]
+[2022-12-08 18:06:52,716] [INFO] [timer.py:197:stop] 0/445, RunningAvgSamplesPerSec=2.666198795349884, CurrSamplesPerSec=2.6339690499668973, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 446/1233389 [11:12<523:11:17,  1.53s/it]
+[2022-12-08 18:06:54,245] [INFO] [timer.py:197:stop] 0/446, RunningAvgSamplesPerSec=2.6661054467558913, CurrSamplesPerSec=2.6253850512559262, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 447/1233389 [11:14<523:47:40,  1.53s/it]
+
+  0% 448/1233389 [11:15<525:47:20,  1.54s/it]
+
+  0% 449/1233389 [11:17<524:54:41,  1.53s/it]
+[2022-12-08 18:07:00,370] [INFO] [logging.py:68:log_dist] [Rank 0] step=450, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:07:00,378] [INFO] [timer.py:197:stop] 0/450, RunningAvgSamplesPerSec=2.665638086817762, CurrSamplesPerSec=2.6306802644288063, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.661, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 451/1233389 [11:20<523:13:59,  1.53s/it]
+
+  0% 452/1233389 [11:21<524:25:52,  1.53s/it]
+
+  0% 453/1233389 [11:23<523:19:07,  1.53s/it]
+
+  0% 455/1233389 [11:26<527:01:17,  1.54s/it]
+[2022-12-08 18:07:08,057] [INFO] [timer.py:197:stop] 0/455, RunningAvgSamplesPerSec=2.6650168186256757, CurrSamplesPerSec=2.5817516198255412, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6928, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 456/1233389 [11:28<525:43:33,  1.54s/it]
+
+  0% 457/1233389 [11:29<525:20:31,  1.53s/it]
+
+  0% 459/1233389 [11:32<522:48:09,  1.53s/it]
+[2022-12-08 18:07:14,157] [INFO] [timer.py:197:stop] 0/459, RunningAvgSamplesPerSec=2.664707316803703, CurrSamplesPerSec=2.651973748374448, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:07:15,676] [INFO] [logging.py:68:log_dist] [Rank 0] step=460, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:07:15,683] [INFO] [timer.py:197:stop] 0/460, RunningAvgSamplesPerSec=2.6646230445074397, CurrSamplesPerSec=2.626660487719342, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 460/1233389 [11:34<522:46:57,  1.53s/it]
+
+  0% 461/1233389 [11:35<521:47:56,  1.52s/it]
+
+  0% 463/1233389 [11:38<522:37:09,  1.53s/it]
+[2022-12-08 18:07:20,256] [INFO] [timer.py:197:stop] 0/463, RunningAvgSamplesPerSec=2.6644003380741523, CurrSamplesPerSec=2.6233706368280405, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 464/1233389 [11:40<522:07:07,  1.52s/it]
+[2022-12-08 18:07:23,292] [INFO] [timer.py:197:stop] 0/465, RunningAvgSamplesPerSec=2.6643003850425897, CurrSamplesPerSec=2.6477424250243393, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 465/1233389 [11:41<521:03:50,  1.52s/it]
+
+  0% 466/1233389 [11:43<521:33:20,  1.52s/it]
+[2022-12-08 18:07:26,346] [INFO] [timer.py:197:stop] 0/467, RunningAvgSamplesPerSec=2.6641362787555085, CurrSamplesPerSec=2.6227562958159627, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 468/1233389 [11:46<521:24:44,  1.52s/it]
+
+  0% 469/1233389 [11:47<520:44:24,  1.52s/it]
+[2022-12-08 18:07:30,889] [INFO] [logging.py:68:log_dist] [Rank 0] step=470, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:07:30,896] [INFO] [timer.py:197:stop] 0/470, RunningAvgSamplesPerSec=2.664000423692037, CurrSamplesPerSec=2.6447326563922195, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 470/1233389 [11:49<520:17:21,  1.52s/it]
+[2022-12-08 18:07:32,417] [INFO] [timer.py:197:stop] 0/471, RunningAvgSamplesPerSec=2.6639445803544617, CurrSamplesPerSec=2.638064339512009, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 472/1233389 [11:52<520:51:59,  1.52s/it]
+
+  0% 473/1233389 [11:54<520:29:35,  1.52s/it]
+
+  0% 474/1233389 [11:55<521:05:17,  1.52s/it]
+[2022-12-08 18:07:38,495] [INFO] [timer.py:197:stop] 0/475, RunningAvgSamplesPerSec=2.66372222678033, CurrSamplesPerSec=2.6515722181016113, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 476/1233389 [11:58<520:35:36,  1.52s/it]
+[2022-12-08 18:07:40,019] [INFO] [timer.py:197:stop] 0/476, RunningAvgSamplesPerSec=2.6636623006525877, CurrSamplesPerSec=2.6356163212881287, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 477/1233389 [12:00<520:46:52,  1.52s/it]
+
+  0% 478/1233389 [12:01<520:49:49,  1.52s/it]
+
+  0% 480/1233389 [12:04<519:56:05,  1.52s/it]
+[2022-12-08 18:07:46,087] [INFO] [logging.py:68:log_dist] [Rank 0] step=480, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:07:46,095] [INFO] [timer.py:197:stop] 0/480, RunningAvgSamplesPerSec=2.6634578126497686, CurrSamplesPerSec=2.6489326093189693, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.829, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 481/1233389 [12:06<520:24:48,  1.52s/it]
+
+  0% 482/1233389 [12:07<520:23:36,  1.52s/it]
+
+  0% 484/1233389 [12:10<521:27:22,  1.52s/it]
+[2022-12-08 18:07:52,191] [INFO] [timer.py:197:stop] 0/484, RunningAvgSamplesPerSec=2.663214284156056, CurrSamplesPerSec=2.6419468741983674, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:07:53,719] [INFO] [timer.py:197:stop] 0/485, RunningAvgSamplesPerSec=2.663129885464539, CurrSamplesPerSec=2.6230630202437757, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 485/1233389 [12:12<522:01:03,  1.52s/it]
+
+  0% 486/1233389 [12:13<523:08:31,  1.53s/it]
+
+  0% 487/1233389 [12:15<525:31:32,  1.53s/it]
+[2022-12-08 18:07:58,343] [INFO] [timer.py:197:stop] 0/488, RunningAvgSamplesPerSec=2.6627491744971743, CurrSamplesPerSec=2.608432886384986, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 489/1233389 [12:18<525:48:38,  1.54s/it]
+[2022-12-08 18:08:01,387] [INFO] [logging.py:68:log_dist] [Rank 0] step=490, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:08:01,394] [INFO] [timer.py:197:stop] 0/490, RunningAvgSamplesPerSec=2.6626008864012403, CurrSamplesPerSec=2.644051182069665, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 490/1233389 [12:19<523:50:08,  1.53s/it]
+
+  0% 491/1233389 [12:21<522:45:12,  1.53s/it]
+[2022-12-08 18:08:04,446] [INFO] [timer.py:197:stop] 0/492, RunningAvgSamplesPerSec=2.662459104021236, CurrSamplesPerSec=2.614897444877372, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 493/1233389 [12:24<522:59:37,  1.53s/it]
+
+  0% 494/1233389 [12:26<522:24:36,  1.53s/it]
+[2022-12-08 18:08:09,005] [INFO] [timer.py:197:stop] 0/495, RunningAvgSamplesPerSec=2.6623095148349964, CurrSamplesPerSec=2.649599446113397, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 495/1233389 [12:27<521:06:26,  1.52s/it]
+[2022-12-08 18:08:10,537] [INFO] [timer.py:197:stop] 0/496, RunningAvgSamplesPerSec=2.662223830868285, CurrSamplesPerSec=2.6206427513379915, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 497/1233389 [12:30<521:32:23,  1.52s/it]
+
+  0% 498/1233389 [12:32<521:06:12,  1.52s/it]
+
+  0% 499/1233389 [12:33<520:27:56,  1.52s/it]
+[2022-12-08 18:08:16,931] [INFO] [logging.py:68:log_dist] [Rank 0] step=500, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:08:16,938] [INFO] [timer.py:197:stop] 0/500, RunningAvgSamplesPerSec=2.6608778531289254, CurrSamplesPerSec=2.167400988049283, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 500/1233389 [12:35<554:14:00,  1.62s/it]
+[2022-12-08 18:08:18,473] [INFO] [timer.py:197:stop] 0/501, RunningAvgSamplesPerSec=2.6607825891430457, CurrSamplesPerSec=2.6141738221683513, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 502/1233389 [12:38<539:10:28,  1.57s/it]
+
+  0% 503/1233389 [12:40<535:04:35,  1.56s/it]
+
+  0% 504/1233389 [12:41<531:09:21,  1.55s/it]
+[2022-12-08 18:08:24,605] [INFO] [timer.py:197:stop] 0/505, RunningAvgSamplesPerSec=2.660412809715674, CurrSamplesPerSec=2.5983069484495847, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 506/1233389 [12:44<528:09:12,  1.54s/it]
+[2022-12-08 18:08:26,132] [INFO] [timer.py:197:stop] 0/506, RunningAvgSamplesPerSec=2.660350610008869, CurrSamplesPerSec=2.6294285325604854, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 507/1233389 [12:46<525:26:19,  1.53s/it]
+
+  0% 508/1233389 [12:47<524:41:35,  1.53s/it]
+
+  0% 510/1233389 [12:50<523:58:57,  1.53s/it]
+[2022-12-08 18:08:32,223] [INFO] [logging.py:68:log_dist] [Rank 0] step=510, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:08:32,230] [INFO] [timer.py:197:stop] 0/510, RunningAvgSamplesPerSec=2.6601087229795763, CurrSamplesPerSec=2.618878000755823, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7005, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 511/1233389 [12:52<523:46:59,  1.53s/it]
+
+  0% 512/1233389 [12:53<522:55:06,  1.53s/it]
+
+  0% 514/1233389 [12:56<521:49:41,  1.52s/it]
+[2022-12-08 18:08:38,321] [INFO] [timer.py:197:stop] 0/514, RunningAvgSamplesPerSec=2.659898474252596, CurrSamplesPerSec=2.638826983604943, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:08:39,841] [INFO] [timer.py:197:stop] 0/515, RunningAvgSamplesPerSec=2.65985443978833, CurrSamplesPerSec=2.637498657843781, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 515/1233389 [12:58<521:25:09,  1.52s/it]
+
+  0% 516/1233389 [12:59<521:12:07,  1.52s/it]
+
+  0% 517/1233389 [13:01<520:55:03,  1.52s/it]
+[2022-12-08 18:08:44,496] [INFO] [timer.py:197:stop] 0/518, RunningAvgSamplesPerSec=2.659403443168909, CurrSamplesPerSec=2.4799796365502638, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 519/1233389 [13:04<537:16:04,  1.57s/it]
+[2022-12-08 18:08:47,627] [INFO] [logging.py:68:log_dist] [Rank 0] step=520, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:08:47,634] [INFO] [timer.py:197:stop] 0/520, RunningAvgSamplesPerSec=2.658986624386242, CurrSamplesPerSec=2.6311703970244964, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 520/1233389 [13:06<532:36:15,  1.56s/it]
+
+  0% 521/1233389 [13:07<529:30:23,  1.55s/it]
+
+  0% 523/1233389 [13:10<524:33:31,  1.53s/it]
+[2022-12-08 18:08:52,196] [INFO] [timer.py:197:stop] 0/523, RunningAvgSamplesPerSec=2.658856574951184, CurrSamplesPerSec=2.6483547325807053, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 524/1233389 [13:12<523:25:31,  1.53s/it]
+[2022-12-08 18:08:55,236] [INFO] [timer.py:197:stop] 0/525, RunningAvgSamplesPerSec=2.658774091632172, CurrSamplesPerSec=2.6392993967146126, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 525/1233389 [13:13<522:25:47,  1.53s/it]
+
+  0% 527/1233389 [13:16<522:40:54,  1.53s/it]
+[2022-12-08 18:08:58,291] [INFO] [timer.py:197:stop] 0/527, RunningAvgSamplesPerSec=2.658660162189969, CurrSamplesPerSec=2.630241445436793, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 528/1233389 [13:18<523:22:04,  1.53s/it]
+
+  0% 529/1233389 [13:19<521:08:22,  1.52s/it]
+[2022-12-08 18:09:02,846] [INFO] [logging.py:68:log_dist] [Rank 0] step=530, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:09:02,854] [INFO] [timer.py:197:stop] 0/530, RunningAvgSamplesPerSec=2.6585285917403634, CurrSamplesPerSec=2.632117348531653, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 531/1233389 [13:22<521:34:47,  1.52s/it]
+[2022-12-08 18:09:04,379] [INFO] [timer.py:197:stop] 0/531, RunningAvgSamplesPerSec=2.658479947959311, CurrSamplesPerSec=2.633042253843852, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 532/1233389 [13:24<523:09:58,  1.53s/it]
+
+  0% 533/1233389 [13:25<522:45:31,  1.53s/it]
+
+  0% 535/1233389 [13:29<522:07:56,  1.52s/it]
+[2022-12-08 18:09:10,488] [INFO] [timer.py:197:stop] 0/535, RunningAvgSamplesPerSec=2.658224831916893, CurrSamplesPerSec=2.6368905304518666, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7369, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 536/1233389 [13:30<522:37:37,  1.53s/it]
+
+  0% 537/1233389 [13:32<521:27:00,  1.52s/it]
+
+  0% 538/1233389 [13:33<521:13:11,  1.52s/it]
+[2022-12-08 18:09:16,567] [INFO] [timer.py:197:stop] 0/539, RunningAvgSamplesPerSec=2.6580743631047383, CurrSamplesPerSec=2.646565416900856, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:09:18,081] [INFO] [logging.py:68:log_dist] [Rank 0] step=540, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+
+  0% 540/1233389 [13:36<520:33:32,  1.52s/it]
+{'loss': 0.6694, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 541/1233389 [13:38<521:41:41,  1.52s/it]
+
+  0% 542/1233389 [13:39<521:12:58,  1.52s/it]
+[2022-12-08 18:09:22,665] [INFO] [timer.py:197:stop] 0/543, RunningAvgSamplesPerSec=2.657868905981146, CurrSamplesPerSec=2.6254696857379693, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 544/1233389 [13:42<521:49:54,  1.52s/it]
+[2022-12-08 18:09:25,724] [INFO] [timer.py:197:stop] 0/545, RunningAvgSamplesPerSec=2.657730169008971, CurrSamplesPerSec=2.6117512191492125, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 545/1233389 [13:44<522:56:51,  1.53s/it]
+
+  0% 546/1233389 [13:45<524:01:13,  1.53s/it]
+
+  0% 548/1233389 [13:48<521:40:31,  1.52s/it]
+[2022-12-08 18:09:30,296] [INFO] [timer.py:197:stop] 0/548, RunningAvgSamplesPerSec=2.6575861621987573, CurrSamplesPerSec=2.6465040473938495, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 549/1233389 [13:50<522:01:19,  1.52s/it]
+[2022-12-08 18:09:33,346] [INFO] [logging.py:68:log_dist] [Rank 0] step=550, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:09:33,353] [INFO] [timer.py:197:stop] 0/550, RunningAvgSamplesPerSec=2.6574549383144133, CurrSamplesPerSec=2.6190247680966707, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 550/1233389 [13:51<522:36:52,  1.53s/it]
+
+  0% 552/1233389 [13:55<535:09:44,  1.56s/it]
+[2022-12-08 18:09:36,545] [INFO] [timer.py:197:stop] 0/552, RunningAvgSamplesPerSec=2.656914444604053, CurrSamplesPerSec=2.4960401146583675, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 553/1233389 [13:56<534:50:57,  1.56s/it]
+
+  0% 554/1233389 [13:58<530:35:03,  1.55s/it]
+[2022-12-08 18:09:41,151] [INFO] [timer.py:197:stop] 0/555, RunningAvgSamplesPerSec=2.6566615233551634, CurrSamplesPerSec=2.6272972307638343, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 555/1233389 [13:59<528:08:01,  1.54s/it]
+[2022-12-08 18:09:42,685] [INFO] [timer.py:197:stop] 0/556, RunningAvgSamplesPerSec=2.6565871241842673, CurrSamplesPerSec=2.6160729628122303, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 557/1233389 [14:02<525:54:15,  1.54s/it]
+
+  0% 558/1233389 [14:04<523:44:06,  1.53s/it]
+
+  0% 559/1233389 [14:05<523:21:17,  1.53s/it]
+[2022-12-08 18:09:48,755] [INFO] [logging.py:68:log_dist] [Rank 0] step=560, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:09:48,763] [INFO] [timer.py:197:stop] 0/560, RunningAvgSamplesPerSec=2.6564538462003062, CurrSamplesPerSec=2.651903325087043, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 561/1233389 [14:08<521:45:27,  1.52s/it]
+[2022-12-08 18:09:50,287] [INFO] [timer.py:197:stop] 0/561, RunningAvgSamplesPerSec=2.656410318689468, CurrSamplesPerSec=2.632342421965475, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 562/1233389 [14:10<520:48:22,  1.52s/it]
+
+  0% 563/1233389 [14:11<521:12:27,  1.52s/it]
+
+  0% 565/1233389 [14:14<520:39:14,  1.52s/it]
+[2022-12-08 18:09:56,363] [INFO] [timer.py:197:stop] 0/565, RunningAvgSamplesPerSec=2.6562891109762927, CurrSamplesPerSec=2.6354747265044884, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7552, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 566/1233389 [14:16<520:44:59,  1.52s/it]
+
+  0% 567/1233389 [14:17<521:10:17,  1.52s/it]
+
+  0% 569/1233389 [14:20<519:04:50,  1.52s/it]
+[2022-12-08 18:10:02,428] [INFO] [timer.py:197:stop] 0/569, RunningAvgSamplesPerSec=2.656208247096437, CurrSamplesPerSec=2.65233975818283, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:10:03,936] [INFO] [logging.py:68:log_dist] [Rank 0] step=570, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:10:03,943] [INFO] [timer.py:197:stop] 0/570, RunningAvgSamplesPerSec=2.65618808046527, CurrSamplesPerSec=2.6448026993444906, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 570/1233389 [14:22<519:02:05,  1.52s/it]
+
+  0% 571/1233389 [14:24<518:52:01,  1.52s/it]
+
+  0% 573/1233389 [14:27<519:37:05,  1.52s/it]
+[2022-12-08 18:10:08,497] [INFO] [timer.py:197:stop] 0/573, RunningAvgSamplesPerSec=2.6561126152693055, CurrSamplesPerSec=2.642433306862615, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 574/1233389 [14:28<519:30:06,  1.52s/it]
+[2022-12-08 18:10:11,534] [INFO] [timer.py:197:stop] 0/575, RunningAvgSamplesPerSec=2.656055995664769, CurrSamplesPerSec=2.6355819562436507, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 575/1233389 [14:30<519:53:17,  1.52s/it]
+
+  0% 577/1233389 [14:33<520:17:16,  1.52s/it]
+[2022-12-08 18:10:14,576] [INFO] [timer.py:197:stop] 0/577, RunningAvgSamplesPerSec=2.6559906704356036, CurrSamplesPerSec=2.6410668406260966, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 578/1233389 [14:34<522:41:14,  1.53s/it]
+
+  0% 579/1233389 [14:36<522:13:25,  1.52s/it]
+[2022-12-08 18:10:19,148] [INFO] [logging.py:68:log_dist] [Rank 0] step=580, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:10:19,156] [INFO] [timer.py:197:stop] 0/580, RunningAvgSamplesPerSec=2.655832098081742, CurrSamplesPerSec=2.645889256995225, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 580/1233389 [14:37<521:09:42,  1.52s/it]
+[2022-12-08 18:10:20,675] [INFO] [timer.py:197:stop] 0/581, RunningAvgSamplesPerSec=2.6558042856037876, CurrSamplesPerSec=2.6398255600804728, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 582/1233389 [14:40<519:55:25,  1.52s/it]
+
+  0% 583/1233389 [14:42<520:39:55,  1.52s/it]
+
+  0% 584/1233389 [14:43<529:12:44,  1.55s/it]
+[2022-12-08 18:10:26,929] [INFO] [timer.py:197:stop] 0/585, RunningAvgSamplesPerSec=2.655150494313456, CurrSamplesPerSec=2.4839903354076664, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 586/1233389 [14:47<532:47:04,  1.56s/it]
+[2022-12-08 18:10:28,462] [INFO] [timer.py:197:stop] 0/586, RunningAvgSamplesPerSec=2.6550927587014037, CurrSamplesPerSec=2.621854990485213, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 587/1233389 [14:48<529:51:39,  1.55s/it]
+
+  0% 588/1233389 [14:50<529:08:51,  1.55s/it]
+
+  0% 590/1233389 [14:53<525:02:46,  1.53s/it]
+[2022-12-08 18:10:34,567] [INFO] [logging.py:68:log_dist] [Rank 0] step=590, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:10:34,575] [INFO] [timer.py:197:stop] 0/590, RunningAvgSamplesPerSec=2.6548761552524223, CurrSamplesPerSec=2.640006671922379, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6843, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 591/1233389 [14:54<525:02:26,  1.53s/it]
+
+  0% 592/1233389 [14:56<523:53:24,  1.53s/it]
+
+  0% 593/1233389 [14:57<524:12:10,  1.53s/it]
+[2022-12-08 18:10:40,679] [INFO] [timer.py:197:stop] 0/594, RunningAvgSamplesPerSec=2.6546911650465193, CurrSamplesPerSec=2.6436470482753642, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:10:42,204] [INFO] [timer.py:197:stop] 0/595, RunningAvgSamplesPerSec=2.6546478908307476, CurrSamplesPerSec=2.629274828163736, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 595/1233389 [15:00<522:33:08,  1.53s/it]
+
+  0% 596/1233389 [15:02<522:53:24,  1.53s/it]
+
+  0% 597/1233389 [15:03<521:58:05,  1.52s/it]
+[2022-12-08 18:10:46,774] [INFO] [timer.py:197:stop] 0/598, RunningAvgSamplesPerSec=2.654537664154164, CurrSamplesPerSec=2.6326637861570776, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 599/1233389 [15:06<522:00:31,  1.52s/it]
+[2022-12-08 18:10:50,135] [INFO] [logging.py:68:log_dist] [Rank 0] step=600, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+
+  0% 600/1233389 [15:08<554:43:14,  1.62s/it]
+{'loss': 0.6587, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 601/1233389 [15:10<545:48:15,  1.59s/it]
+
+  0% 602/1233389 [15:11<538:51:45,  1.57s/it]
+[2022-12-08 18:10:54,736] [INFO] [timer.py:197:stop] 0/603, RunningAvgSamplesPerSec=2.653335819977989, CurrSamplesPerSec=2.6117016175933987, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 604/1233389 [15:14<531:32:28,  1.55s/it]
+[2022-12-08 18:10:57,789] [INFO] [timer.py:197:stop] 0/605, RunningAvgSamplesPerSec=2.6532450858929235, CurrSamplesPerSec=2.63240065824075, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 605/1233389 [15:16<528:29:49,  1.54s/it]
+
+  0% 606/1233389 [15:17<526:54:27,  1.54s/it]
+[2022-12-08 18:11:00,842] [INFO] [timer.py:197:stop] 0/607, RunningAvgSamplesPerSec=2.653160456663702, CurrSamplesPerSec=2.627650698768793, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 608/1233389 [15:20<523:47:39,  1.53s/it]
+
+  0% 609/1233389 [15:22<523:52:15,  1.53s/it]
+[2022-12-08 18:11:05,402] [INFO] [logging.py:68:log_dist] [Rank 0] step=610, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:11:05,409] [INFO] [timer.py:197:stop] 0/610, RunningAvgSamplesPerSec=2.653062276220206, CurrSamplesPerSec=2.639094718952694, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 610/1233389 [15:23<522:43:12,  1.53s/it]
+[2022-12-08 18:11:06,926] [INFO] [timer.py:197:stop] 0/611, RunningAvgSamplesPerSec=2.653046771439349, CurrSamplesPerSec=2.6436532968265856, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 612/1233389 [15:26<520:54:44,  1.52s/it]
+
+  0% 613/1233389 [15:28<521:03:56,  1.52s/it]
+
+  0% 614/1233389 [15:30<523:54:29,  1.53s/it]
+[2022-12-08 18:11:13,064] [INFO] [timer.py:197:stop] 0/615, RunningAvgSamplesPerSec=2.6527760373000415, CurrSamplesPerSec=2.584774568869559, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 616/1233389 [15:33<531:21:14,  1.55s/it]
+[2022-12-08 18:11:14,651] [INFO] [timer.py:197:stop] 0/616, RunningAvgSamplesPerSec=2.652610321255378, CurrSamplesPerSec=2.5547790290015535, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 617/1233389 [15:34<537:53:37,  1.57s/it]
+
+  0% 618/1233389 [15:36<533:11:40,  1.56s/it]
+
+  0% 619/1233389 [15:37<530:53:48,  1.55s/it]
+[2022-12-08 18:11:20,840] [INFO] [logging.py:68:log_dist] [Rank 0] step=620, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:11:20,847] [INFO] [timer.py:197:stop] 0/620, RunningAvgSamplesPerSec=2.652189482988204, CurrSamplesPerSec=2.638326941379165, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.703, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 621/1233389 [15:40<525:36:36,  1.53s/it]
+
+  0% 622/1233389 [15:42<523:43:07,  1.53s/it]
+
+  0% 623/1233389 [15:43<523:14:02,  1.53s/it]
+[2022-12-08 18:11:26,930] [INFO] [timer.py:197:stop] 0/624, RunningAvgSamplesPerSec=2.6520910102064126, CurrSamplesPerSec=2.6348849119640643, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 625/1233389 [15:47<522:21:49,  1.53s/it]
+{'loss': 0.7535, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 626/1233389 [15:48<522:03:58,  1.52s/it]
+
+  0% 627/1233389 [15:50<521:20:06,  1.52s/it]
+
+  0% 629/1233389 [15:53<521:47:35,  1.52s/it]
+[2022-12-08 18:11:34,544] [INFO] [timer.py:197:stop] 0/629, RunningAvgSamplesPerSec=2.6519384707444758, CurrSamplesPerSec=2.628819177582072, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:11:36,068] [INFO] [logging.py:68:log_dist] [Rank 0] step=630, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:11:36,074] [INFO] [timer.py:197:stop] 0/630, RunningAvgSamplesPerSec=2.6518859648101567, CurrSamplesPerSec=2.619369061335881, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 630/1233389 [15:54<522:26:48,  1.53s/it]
+
+  0% 631/1233389 [15:56<522:20:19,  1.53s/it]
+
+  0% 633/1233389 [15:59<522:30:50,  1.53s/it]
+[2022-12-08 18:11:40,649] [INFO] [timer.py:197:stop] 0/633, RunningAvgSamplesPerSec=2.651779931258668, CurrSamplesPerSec=2.6177440725875156, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 634/1233389 [16:00<521:36:14,  1.52s/it]
+[2022-12-08 18:11:43,682] [INFO] [timer.py:197:stop] 0/635, RunningAvgSamplesPerSec=2.651754897067713, CurrSamplesPerSec=2.645021607484604, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 635/1233389 [16:02<520:47:31,  1.52s/it]
+
+  0% 637/1233389 [16:05<520:48:07,  1.52s/it]
+[2022-12-08 18:11:46,726] [INFO] [timer.py:197:stop] 0/637, RunningAvgSamplesPerSec=2.6517034523788645, CurrSamplesPerSec=2.6444016702530155, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 638/1233389 [16:06<518:56:13,  1.52s/it]
+
+  0% 639/1233389 [16:08<519:54:32,  1.52s/it]
+[2022-12-08 18:11:51,263] [INFO] [logging.py:68:log_dist] [Rank 0] step=640, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:11:51,270] [INFO] [timer.py:197:stop] 0/640, RunningAvgSamplesPerSec=2.6516801797709038, CurrSamplesPerSec=2.6437795238862885, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 640/1233389 [16:09<519:39:08,  1.52s/it]
+[2022-12-08 18:11:52,787] [INFO] [timer.py:197:stop] 0/641, RunningAvgSamplesPerSec=2.6516686681458035, CurrSamplesPerSec=2.6443445689341982, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 642/1233389 [16:12<519:17:14,  1.52s/it]
+
+  0% 643/1233389 [16:14<520:03:00,  1.52s/it]
+
+  0% 644/1233389 [16:15<520:25:06,  1.52s/it]
+[2022-12-08 18:11:58,876] [INFO] [timer.py:197:stop] 0/645, RunningAvgSamplesPerSec=2.651556328714347, CurrSamplesPerSec=2.6233480758270273, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6986, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 646/1233389 [16:18<522:11:54,  1.52s/it]
+
+  0% 647/1233389 [16:20<521:31:50,  1.52s/it]
+
+  0% 648/1233389 [16:21<521:49:48,  1.52s/it]
+[2022-12-08 18:12:04,963] [INFO] [timer.py:197:stop] 0/649, RunningAvgSamplesPerSec=2.651455254678725, CurrSamplesPerSec=2.6512596284112386, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:12:06,482] [INFO] [logging.py:68:log_dist] [Rank 0] step=650, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+
+  0% 650/1233389 [16:25<521:13:25,  1.52s/it]
+{'loss': 0.6588, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 651/1233389 [16:26<521:02:38,  1.52s/it]
+
+  0% 652/1233389 [16:28<522:14:48,  1.53s/it]
+
+  0% 654/1233389 [16:31<522:10:01,  1.52s/it]
+[2022-12-08 18:12:12,593] [INFO] [timer.py:197:stop] 0/654, RunningAvgSamplesPerSec=2.6512691465556184, CurrSamplesPerSec=2.632535726754563, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:12:14,112] [INFO] [timer.py:197:stop] 0/655, RunningAvgSamplesPerSec=2.6512501826555965, CurrSamplesPerSec=2.638943203129633, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 655/1233389 [16:32<521:34:42,  1.52s/it]
+
+  0% 656/1233389 [16:34<521:28:28,  1.52s/it]
+
+  0% 658/1233389 [16:37<522:06:46,  1.52s/it]
+[2022-12-08 18:12:18,685] [INFO] [timer.py:197:stop] 0/658, RunningAvgSamplesPerSec=2.651159516492482, CurrSamplesPerSec=2.613997866386963, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 659/1233389 [16:38<521:36:30,  1.52s/it]
+[2022-12-08 18:12:21,731] [INFO] [logging.py:68:log_dist] [Rank 0] step=660, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:12:21,738] [INFO] [timer.py:197:stop] 0/660, RunningAvgSamplesPerSec=2.6510814144423267, CurrSamplesPerSec=2.613630553581852, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 660/1233389 [16:40<522:38:42,  1.53s/it]
+
+  0% 662/1233389 [16:43<521:54:25,  1.52s/it]
+[2022-12-08 18:12:24,781] [INFO] [timer.py:197:stop] 0/662, RunningAvgSamplesPerSec=2.651035684136892, CurrSamplesPerSec=2.631524082519342, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 663/1233389 [16:44<522:57:14,  1.53s/it]
+
+  0% 664/1233389 [16:46<521:55:32,  1.52s/it]
+[2022-12-08 18:12:29,362] [INFO] [timer.py:197:stop] 0/665, RunningAvgSamplesPerSec=2.650929253892309, CurrSamplesPerSec=2.622017253485963, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 665/1233389 [16:47<522:25:19,  1.53s/it]
+[2022-12-08 18:12:30,899] [INFO] [timer.py:197:stop] 0/666, RunningAvgSamplesPerSec=2.6508714594457548, CurrSamplesPerSec=2.613100534621929, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 667/1233389 [16:50<522:10:47,  1.52s/it]
+
+  0% 668/1233389 [16:52<521:47:18,  1.52s/it]
+
+  0% 669/1233389 [16:54<521:50:23,  1.52s/it]
+[2022-12-08 18:12:36,978] [INFO] [logging.py:68:log_dist] [Rank 0] step=670, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:12:36,985] [INFO] [timer.py:197:stop] 0/670, RunningAvgSamplesPerSec=2.6507752696723736, CurrSamplesPerSec=2.6287376220830545, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.5816, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 671/1233389 [16:57<521:17:47,  1.52s/it]
+
+  0% 672/1233389 [16:58<522:46:10,  1.53s/it]
+
+  0% 673/1233389 [17:00<531:05:11,  1.55s/it]
+
+  0% 675/1233389 [17:03<526:40:18,  1.54s/it]
+[2022-12-08 18:12:44,701] [INFO] [timer.py:197:stop] 0/675, RunningAvgSamplesPerSec=2.650375367856107, CurrSamplesPerSec=2.6355144708727325, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6009, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 676/1233389 [17:04<525:12:39,  1.53s/it]
+
+  0% 677/1233389 [17:06<524:01:17,  1.53s/it]
+
+  0% 679/1233389 [17:09<522:34:52,  1.53s/it]
+[2022-12-08 18:12:50,791] [INFO] [timer.py:197:stop] 0/679, RunningAvgSamplesPerSec=2.6502758954026815, CurrSamplesPerSec=2.63374659247625, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:12:52,307] [INFO] [logging.py:68:log_dist] [Rank 0] step=680, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:12:52,314] [INFO] [timer.py:197:stop] 0/680, RunningAvgSamplesPerSec=2.650248503564361, CurrSamplesPerSec=2.6318332740889567, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 680/1233389 [17:10<522:14:57,  1.53s/it]
+
+  0% 681/1233389 [17:12<522:33:38,  1.53s/it]
+
+  0% 682/1233389 [17:13<523:03:38,  1.53s/it]
+[2022-12-08 18:12:56,900] [INFO] [timer.py:197:stop] 0/683, RunningAvgSamplesPerSec=2.6501378031708267, CurrSamplesPerSec=2.625932395906685, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 684/1233389 [17:16<521:34:13,  1.52s/it]
+[2022-12-08 18:12:59,937] [INFO] [timer.py:197:stop] 0/685, RunningAvgSamplesPerSec=2.6501101645551057, CurrSamplesPerSec=2.631805200293531, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 685/1233389 [17:18<521:35:09,  1.52s/it]
+
+  0% 686/1233389 [17:20<521:46:25,  1.52s/it]
+[2022-12-08 18:13:02,984] [INFO] [timer.py:197:stop] 0/687, RunningAvgSamplesPerSec=2.650058928151562, CurrSamplesPerSec=2.633762717313631, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 688/1233389 [17:23<520:35:16,  1.52s/it]
+
+  0% 689/1233389 [17:24<520:44:00,  1.52s/it]
+[2022-12-08 18:13:07,544] [INFO] [logging.py:68:log_dist] [Rank 0] step=690, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:13:07,551] [INFO] [timer.py:197:stop] 0/690, RunningAvgSamplesPerSec=2.649983683087468, CurrSamplesPerSec=2.616332428537165, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 690/1233389 [17:26<521:52:48,  1.52s/it]
+[2022-12-08 18:13:09,075] [INFO] [timer.py:197:stop] 0/691, RunningAvgSamplesPerSec=2.649961421317756, CurrSamplesPerSec=2.6347334653640737, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 692/1233389 [17:29<521:09:28,  1.52s/it]
+
+  0% 693/1233389 [17:30<522:50:54,  1.53s/it]
+
+  0% 694/1233389 [17:32<522:56:22,  1.53s/it]
+[2022-12-08 18:13:15,185] [INFO] [timer.py:197:stop] 0/695, RunningAvgSamplesPerSec=2.6498124757540564, CurrSamplesPerSec=2.6269121864483953, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 696/1233389 [17:35<523:10:32,  1.53s/it]
+[2022-12-08 18:13:16,715] [INFO] [timer.py:197:stop] 0/696, RunningAvgSamplesPerSec=2.6497746586017747, CurrSamplesPerSec=2.623824400423885, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 697/1233389 [17:36<523:38:21,  1.53s/it]
+
+  0% 698/1233389 [17:38<523:12:38,  1.53s/it]
+
+  0% 699/1233389 [17:39<524:05:09,  1.53s/it]
+[2022-12-08 18:13:23,139] [INFO] [logging.py:68:log_dist] [Rank 0] step=700, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:13:23,147] [INFO] [timer.py:197:stop] 0/700, RunningAvgSamplesPerSec=2.648826600197888, CurrSamplesPerSec=2.1807017721726956, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6225, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 701/1233389 [17:43<546:38:37,  1.60s/it]
+
+  0% 702/1233389 [17:44<539:57:44,  1.58s/it]
+
+  0% 703/1233389 [17:46<534:15:43,  1.56s/it]
+
+  0% 705/1233389 [17:49<535:35:01,  1.56s/it]
+[2022-12-08 18:13:30,856] [INFO] [timer.py:197:stop] 0/705, RunningAvgSamplesPerSec=2.6484777490580567, CurrSamplesPerSec=2.5023813856365127, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6554, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 706/1233389 [17:51<541:20:30,  1.58s/it]
+
+  0% 707/1233389 [17:52<536:27:52,  1.57s/it]
+
+  0% 708/1233389 [17:54<531:33:04,  1.55s/it]
+[2022-12-08 18:13:37,046] [INFO] [timer.py:197:stop] 0/709, RunningAvgSamplesPerSec=2.648149496374749, CurrSamplesPerSec=2.6414951391100776, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:13:38,557] [INFO] [logging.py:68:log_dist] [Rank 0] step=710, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:13:38,564] [INFO] [timer.py:197:stop] 0/710, RunningAvgSamplesPerSec=2.6481376728641024, CurrSamplesPerSec=2.639804791962081, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 710/1233389 [17:57<525:31:54,  1.53s/it]
+
+  0% 711/1233389 [17:58<524:19:55,  1.53s/it]
+
+  0% 712/1233389 [18:00<523:01:01,  1.53s/it]
+[2022-12-08 18:13:43,128] [INFO] [timer.py:197:stop] 0/713, RunningAvgSamplesPerSec=2.648088825763181, CurrSamplesPerSec=2.6340054406419124, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 714/1233389 [18:03<522:11:40,  1.53s/it]
+[2022-12-08 18:13:46,180] [INFO] [timer.py:197:stop] 0/715, RunningAvgSamplesPerSec=2.648025412042274, CurrSamplesPerSec=2.620543692165289, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 715/1233389 [18:04<522:38:46,  1.53s/it]
+
+  0% 716/1233389 [18:06<523:11:22,  1.53s/it]
+[2022-12-08 18:13:49,237] [INFO] [timer.py:197:stop] 0/717, RunningAvgSamplesPerSec=2.6479605446759145, CurrSamplesPerSec=2.628914332060339, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 718/1233389 [18:09<522:04:45,  1.52s/it]
+
+  0% 719/1233389 [18:10<522:08:27,  1.52s/it]
+[2022-12-08 18:13:53,801] [INFO] [logging.py:68:log_dist] [Rank 0] step=720, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:13:53,809] [INFO] [timer.py:197:stop] 0/720, RunningAvgSamplesPerSec=2.6478865680564923, CurrSamplesPerSec=2.624682713471159, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 720/1233389 [18:12<522:22:01,  1.53s/it]
+
+  0% 721/1233389 [18:13<522:38:51,  1.53s/it]
+[2022-12-08 18:13:56,866] [INFO] [timer.py:197:stop] 0/722, RunningAvgSamplesPerSec=2.6478185655038047, CurrSamplesPerSec=2.6211504447868026, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 723/1233389 [18:16<522:41:40,  1.53s/it]
+
+  0% 724/1233389 [18:18<523:01:45,  1.53s/it]
+[2022-12-08 18:14:01,451] [INFO] [timer.py:197:stop] 0/725, RunningAvgSamplesPerSec=2.647715104264675, CurrSamplesPerSec=2.6198619425330523, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 726/1233389 [18:21<523:12:31,  1.53s/it]
+[2022-12-08 18:14:02,978] [INFO] [timer.py:197:stop] 0/726, RunningAvgSamplesPerSec=2.6476891194178145, CurrSamplesPerSec=2.6290346237694138, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 727/1233389 [18:23<523:58:06,  1.53s/it]
+
+  0% 728/1233389 [18:24<523:40:39,  1.53s/it]
+
+  0% 729/1233389 [18:26<522:59:59,  1.53s/it]
+[2022-12-08 18:14:09,076] [INFO] [logging.py:68:log_dist] [Rank 0] step=730, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:14:09,083] [INFO] [timer.py:197:stop] 0/730, RunningAvgSamplesPerSec=2.6475736803074454, CurrSamplesPerSec=2.6392993967146126, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6889, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 731/1233389 [18:29<522:30:41,  1.53s/it]
+
+  0% 732/1233389 [18:30<522:56:29,  1.53s/it]
+
+  0% 733/1233389 [18:32<523:23:45,  1.53s/it]
+[2022-12-08 18:14:15,200] [INFO] [timer.py:197:stop] 0/734, RunningAvgSamplesPerSec=2.6474365657457017, CurrSamplesPerSec=2.6264256946506737, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 735/1233389 [18:35<532:36:03,  1.56s/it]
+{'loss': 0.6468, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 736/1233389 [18:36<531:26:18,  1.55s/it]
+
+  0% 737/1233389 [18:38<531:38:23,  1.55s/it]
+
+  0% 738/1233389 [18:40<531:04:30,  1.55s/it]
+[2022-12-08 18:14:22,996] [INFO] [timer.py:197:stop] 0/739, RunningAvgSamplesPerSec=2.646911363630101, CurrSamplesPerSec=2.619039486620544, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:14:24,537] [INFO] [logging.py:68:log_dist] [Rank 0] step=740, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:14:24,544] [INFO] [timer.py:197:stop] 0/740, RunningAvgSamplesPerSec=2.6468318596104363, CurrSamplesPerSec=2.5895081278978593, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 740/1233389 [18:43<529:17:14,  1.55s/it]
+
+  0% 741/1233389 [18:44<528:16:09,  1.54s/it]
+
+  0% 742/1233389 [18:46<527:29:02,  1.54s/it]
+[2022-12-08 18:14:29,151] [INFO] [timer.py:197:stop] 0/743, RunningAvgSamplesPerSec=2.6466866183049684, CurrSamplesPerSec=2.609008076515404, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 744/1233389 [18:49<527:46:39,  1.54s/it]
+[2022-12-08 18:14:32,235] [INFO] [timer.py:197:stop] 0/745, RunningAvgSamplesPerSec=2.6465591309763146, CurrSamplesPerSec=2.607913080838824, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 745/1233389 [18:50<527:20:28,  1.54s/it]
+
+  0% 746/1233389 [18:52<527:06:07,  1.54s/it]
+[2022-12-08 18:14:35,303] [INFO] [timer.py:197:stop] 0/747, RunningAvgSamplesPerSec=2.646472965579462, CurrSamplesPerSec=2.618573071638598, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 748/1233389 [18:55<524:35:17,  1.53s/it]
+
+  0% 749/1233389 [18:56<523:39:52,  1.53s/it]
+[2022-12-08 18:14:39,870] [INFO] [logging.py:68:log_dist] [Rank 0] step=750, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:14:39,877] [INFO] [timer.py:197:stop] 0/750, RunningAvgSamplesPerSec=2.6464030408205415, CurrSamplesPerSec=2.620770884433568, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 750/1233389 [18:58<523:40:57,  1.53s/it]
+
+  0% 752/1233389 [19:01<523:00:56,  1.53s/it]
+[2022-12-08 18:14:42,928] [INFO] [timer.py:197:stop] 0/752, RunningAvgSamplesPerSec=2.6463578641688588, CurrSamplesPerSec=2.627865953464331, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 753/1233389 [19:03<523:36:40,  1.53s/it]
+
+  0% 754/1233389 [19:04<523:03:39,  1.53s/it]
+[2022-12-08 18:14:47,510] [INFO] [timer.py:197:stop] 0/755, RunningAvgSamplesPerSec=2.646280041331269, CurrSamplesPerSec=2.6300707415177116, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 756/1233389 [19:07<524:35:36,  1.53s/it]
+[2022-12-08 18:14:49,055] [INFO] [timer.py:197:stop] 0/756, RunningAvgSamplesPerSec=2.6462151188589345, CurrSamplesPerSec=2.598216410970381, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 757/1233389 [19:09<524:41:57,  1.53s/it]
+
+  0% 758/1233389 [19:10<525:12:08,  1.53s/it]
+
+  0% 759/1233389 [19:12<525:24:49,  1.53s/it]
+[2022-12-08 18:14:55,189] [INFO] [logging.py:68:log_dist] [Rank 0] step=760, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:14:55,196] [INFO] [timer.py:197:stop] 0/760, RunningAvgSamplesPerSec=2.6460276705085026, CurrSamplesPerSec=2.6115345311338634, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.5533, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 761/1233389 [19:15<525:44:49,  1.54s/it]
+
+  0% 762/1233389 [19:16<525:48:16,  1.54s/it]
+
+  0% 763/1233389 [19:18<524:58:15,  1.53s/it]
+[2022-12-08 18:15:01,328] [INFO] [timer.py:197:stop] 0/764, RunningAvgSamplesPerSec=2.6458663048226687, CurrSamplesPerSec=2.6186262043113984, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 765/1233389 [19:21<525:43:47,  1.54s/it]
+{'loss': 0.5612, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 766/1233389 [19:22<524:29:00,  1.53s/it]
+
+  0% 767/1233389 [19:24<524:02:56,  1.53s/it]
+
+  0% 769/1233389 [19:27<523:46:59,  1.53s/it]
+[2022-12-08 18:15:08,978] [INFO] [timer.py:197:stop] 0/769, RunningAvgSamplesPerSec=2.645708316289783, CurrSamplesPerSec=2.6168690657365827, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:15:10,496] [INFO] [logging.py:68:log_dist] [Rank 0] step=770, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:15:10,503] [INFO] [timer.py:197:stop] 0/770, RunningAvgSamplesPerSec=2.645684702154008, CurrSamplesPerSec=2.627695969294397, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 770/1233389 [19:29<523:18:51,  1.53s/it]
+
+  0% 771/1233389 [19:30<523:37:38,  1.53s/it]
+
+  0% 773/1233389 [19:33<523:46:29,  1.53s/it]
+[2022-12-08 18:15:15,094] [INFO] [timer.py:197:stop] 0/773, RunningAvgSamplesPerSec=2.645588370257654, CurrSamplesPerSec=2.613912340882063, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 774/1233389 [19:35<525:44:09,  1.54s/it]
+[2022-12-08 18:15:18,255] [INFO] [timer.py:197:stop] 0/775, RunningAvgSamplesPerSec=2.6452913497678354, CurrSamplesPerSec=2.4852888850044663, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 775/1233389 [19:36<533:40:50,  1.56s/it]
+
+  0% 776/1233389 [19:38<533:33:33,  1.56s/it]
+[2022-12-08 18:15:21,344] [INFO] [timer.py:197:stop] 0/777, RunningAvgSamplesPerSec=2.6451688121424235, CurrSamplesPerSec=2.6189814311814783, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 778/1233389 [19:41<529:13:37,  1.55s/it]
+
+  0% 779/1233389 [19:42<527:52:49,  1.54s/it]
+[2022-12-08 18:15:25,930] [INFO] [logging.py:68:log_dist] [Rank 0] step=780, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:15:25,937] [INFO] [timer.py:197:stop] 0/780, RunningAvgSamplesPerSec=2.645066440826242, CurrSamplesPerSec=2.6285139882709343, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 780/1233389 [19:44<526:09:19,  1.54s/it]
+
+  0% 782/1233389 [19:47<526:06:14,  1.54s/it]
+[2022-12-08 18:15:29,007] [INFO] [timer.py:197:stop] 0/782, RunningAvgSamplesPerSec=2.6449828097228996, CurrSamplesPerSec=2.5986365581651385, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 783/1233389 [19:49<525:05:14,  1.53s/it]
+
+  0% 784/1233389 [19:50<524:35:55,  1.53s/it]
+[2022-12-08 18:15:33,589] [INFO] [timer.py:197:stop] 0/785, RunningAvgSamplesPerSec=2.6449043758916004, CurrSamplesPerSec=2.6253813537573283, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 786/1233389 [19:53<524:30:07,  1.53s/it]
+[2022-12-08 18:15:35,124] [INFO] [timer.py:197:stop] 0/786, RunningAvgSamplesPerSec=2.6448653211358946, CurrSamplesPerSec=2.6146354113419825, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 787/1233389 [19:55<524:12:24,  1.53s/it]
+
+  0% 788/1233389 [19:56<523:47:16,  1.53s/it]
+
+  0% 789/1233389 [19:58<524:47:45,  1.53s/it]
+[2022-12-08 18:15:41,253] [INFO] [logging.py:68:log_dist] [Rank 0] step=790, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:15:41,260] [INFO] [timer.py:197:stop] 0/790, RunningAvgSamplesPerSec=2.6447037205254786, CurrSamplesPerSec=2.6027901948817362, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.5672, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 791/1233389 [20:01<524:44:23,  1.53s/it]
+
+  0% 792/1233389 [20:02<524:51:53,  1.53s/it]
+
+  0% 793/1233389 [20:04<524:17:01,  1.53s/it]
+[2022-12-08 18:15:47,384] [INFO] [timer.py:197:stop] 0/794, RunningAvgSamplesPerSec=2.644570792593521, CurrSamplesPerSec=2.6089752132662434, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 795/1233389 [20:07<526:30:45,  1.54s/it]
+{'loss': 0.5498, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 796/1233389 [20:09<526:11:33,  1.54s/it]
+
+  0% 797/1233389 [20:10<525:51:11,  1.54s/it]
+
+  0% 799/1233389 [20:13<533:01:54,  1.56s/it]
+
+  0% 800/1233389 [20:15<575:04:37,  1.68s/it]
+[2022-12-08 18:15:57,100] [INFO] [logging.py:68:log_dist] [Rank 0] step=800, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:15:57,107] [INFO] [timer.py:197:stop] 0/800, RunningAvgSamplesPerSec=2.6432023932836737, CurrSamplesPerSec=2.038204575908992, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7269, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 801/1233389 [20:17<561:52:30,  1.64s/it]
+
+  0% 802/1233389 [20:18<552:07:56,  1.61s/it]
+
+  0% 803/1233389 [20:20<544:03:01,  1.59s/it]
+[2022-12-08 18:16:03,267] [INFO] [timer.py:197:stop] 0/804, RunningAvgSamplesPerSec=2.643003256273089, CurrSamplesPerSec=2.620815099399737, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:16:04,798] [INFO] [timer.py:197:stop] 0/805, RunningAvgSamplesPerSec=2.642980513870674, CurrSamplesPerSec=2.6248662707540436, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 805/1233389 [20:23<533:46:26,  1.56s/it]
+
+  0% 806/1233389 [20:24<532:39:21,  1.56s/it]
+
+  0% 807/1233389 [20:26<532:04:39,  1.55s/it]
+[2022-12-08 18:16:09,510] [INFO] [timer.py:197:stop] 0/808, RunningAvgSamplesPerSec=2.6426332986635077, CurrSamplesPerSec=2.483249493720836, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 809/1233389 [20:29<534:25:26,  1.56s/it]
+[2022-12-08 18:16:12,577] [INFO] [logging.py:68:log_dist] [Rank 0] step=810, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:16:12,584] [INFO] [timer.py:197:stop] 0/810, RunningAvgSamplesPerSec=2.6425476853721026, CurrSamplesPerSec=2.604871794354253, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 810/1233389 [20:31<532:09:19,  1.55s/it]
+
+  0% 811/1233389 [20:32<530:07:24,  1.55s/it]
+
+  0% 813/1233389 [20:35<527:07:26,  1.54s/it]
+[2022-12-08 18:16:17,183] [INFO] [timer.py:197:stop] 0/813, RunningAvgSamplesPerSec=2.642447166824067, CurrSamplesPerSec=2.6263808790286727, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 814/1233389 [20:37<526:56:07,  1.54s/it]
+[2022-12-08 18:16:20,254] [INFO] [timer.py:197:stop] 0/815, RunningAvgSamplesPerSec=2.6423675356472733, CurrSamplesPerSec=2.6143053971770165, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 815/1233389 [20:38<526:20:05,  1.54s/it]
+
+  0% 816/1233389 [20:40<525:34:24,  1.54s/it]
+[2022-12-08 18:16:23,320] [INFO] [timer.py:197:stop] 0/817, RunningAvgSamplesPerSec=2.642304215636752, CurrSamplesPerSec=2.610006540100273, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 818/1233389 [20:43<524:00:17,  1.53s/it]
+
+  0% 819/1233389 [20:44<524:25:21,  1.53s/it]
+[2022-12-08 18:16:27,903] [INFO] [logging.py:68:log_dist] [Rank 0] step=820, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:16:27,910] [INFO] [timer.py:197:stop] 0/820, RunningAvgSamplesPerSec=2.6422200492630616, CurrSamplesPerSec=2.608861212609577, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 820/1233389 [20:46<524:53:40,  1.53s/it]
+[2022-12-08 18:16:29,429] [INFO] [timer.py:197:stop] 0/821, RunningAvgSamplesPerSec=2.6422207790981953, CurrSamplesPerSec=2.642817919325544, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 822/1233389 [20:49<523:54:33,  1.53s/it]
+
+  0% 823/1233389 [20:51<523:44:32,  1.53s/it]
+
+  0% 824/1233389 [20:52<523:51:16,  1.53s/it]
+[2022-12-08 18:16:35,550] [INFO] [timer.py:197:stop] 0/825, RunningAvgSamplesPerSec=2.6421107777919985, CurrSamplesPerSec=2.6226398577349137, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7317, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 826/1233389 [20:55<526:16:58,  1.54s/it]
+
+  0% 827/1233389 [20:57<525:55:02,  1.54s/it]
+
+  0% 828/1233389 [20:58<525:14:34,  1.53s/it]
+
+  0% 830/1233389 [21:01<525:08:28,  1.53s/it]
+[2022-12-08 18:16:43,227] [INFO] [logging.py:68:log_dist] [Rank 0] step=830, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:16:43,235] [INFO] [timer.py:197:stop] 0/830, RunningAvgSamplesPerSec=2.6419091332669797, CurrSamplesPerSec=2.6119838023904083, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.5159, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 831/1233389 [21:03<524:25:58,  1.53s/it]
+
+  0% 832/1233389 [21:04<523:42:47,  1.53s/it]
+
+  0% 833/1233389 [21:06<523:47:23,  1.53s/it]
+[2022-12-08 18:16:49,348] [INFO] [timer.py:197:stop] 0/834, RunningAvgSamplesPerSec=2.6418217950590646, CurrSamplesPerSec=2.617753058426772, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:16:50,886] [INFO] [timer.py:197:stop] 0/835, RunningAvgSamplesPerSec=2.641778702002773, CurrSamplesPerSec=2.6064059248248697, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 835/1233389 [21:09<524:44:17,  1.53s/it]
+
+  0% 836/1233389 [21:10<525:03:38,  1.53s/it]
+
+  0% 837/1233389 [21:12<525:06:38,  1.53s/it]
+[2022-12-08 18:16:55,481] [INFO] [timer.py:197:stop] 0/838, RunningAvgSamplesPerSec=2.641695083492973, CurrSamplesPerSec=2.627138838828039, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 839/1233389 [21:15<532:39:58,  1.56s/it]
+[2022-12-08 18:16:58,635] [INFO] [logging.py:68:log_dist] [Rank 0] step=840, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:16:58,642] [INFO] [timer.py:197:stop] 0/840, RunningAvgSamplesPerSec=2.641433715690441, CurrSamplesPerSec=2.5901913647710413, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 840/1233389 [21:17<531:47:16,  1.55s/it]
+
+  0% 841/1233389 [21:18<529:46:40,  1.55s/it]
+
+  0% 843/1233389 [21:21<527:21:11,  1.54s/it]
+[2022-12-08 18:17:03,243] [INFO] [timer.py:197:stop] 0/843, RunningAvgSamplesPerSec=2.6413362416344515, CurrSamplesPerSec=2.6155753895562293, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 844/1233389 [21:23<526:46:12,  1.54s/it]
+[2022-12-08 18:17:06,306] [INFO] [timer.py:197:stop] 0/845, RunningAvgSamplesPerSec=2.641277042162688, CurrSamplesPerSec=2.621141845115118, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 845/1233389 [21:24<525:47:59,  1.54s/it]
+
+  0% 847/1233389 [21:27<525:36:25,  1.54s/it]
+[2022-12-08 18:17:09,377] [INFO] [timer.py:197:stop] 0/847, RunningAvgSamplesPerSec=2.6412073781778975, CurrSamplesPerSec=2.6184798903114994, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 848/1233389 [21:29<525:02:39,  1.53s/it]
+
+  0% 849/1233389 [21:30<524:20:06,  1.53s/it]
+[2022-12-08 18:17:13,957] [INFO] [logging.py:68:log_dist] [Rank 0] step=850, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:17:13,964] [INFO] [timer.py:197:stop] 0/850, RunningAvgSamplesPerSec=2.6411382119366538, CurrSamplesPerSec=2.6190452105356163, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 850/1233389 [21:32<524:11:38,  1.53s/it]
+[2022-12-08 18:17:15,499] [INFO] [timer.py:197:stop] 0/851, RunningAvgSamplesPerSec=2.641105750900641, CurrSamplesPerSec=2.613863064441949, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 852/1233389 [21:35<526:06:46,  1.54s/it]
+
+  0% 853/1233389 [21:37<526:00:16,  1.54s/it]
+
+  0% 854/1233389 [21:38<524:08:27,  1.53s/it]
+[2022-12-08 18:17:21,624] [INFO] [timer.py:197:stop] 0/855, RunningAvgSamplesPerSec=2.640996351579155, CurrSamplesPerSec=2.6300398192652756, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6368, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 856/1233389 [21:41<523:53:33,  1.53s/it]
+
+  0% 857/1233389 [21:43<524:07:27,  1.53s/it]
+
+  0% 858/1233389 [21:44<523:41:16,  1.53s/it]
+
+  0% 860/1233389 [21:47<523:51:56,  1.53s/it]
+[2022-12-08 18:17:29,270] [INFO] [logging.py:68:log_dist] [Rank 0] step=860, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:17:29,277] [INFO] [timer.py:197:stop] 0/860, RunningAvgSamplesPerSec=2.6408691075627346, CurrSamplesPerSec=2.6177252842138703, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.5684, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 861/1233389 [21:49<524:01:55,  1.53s/it]
+
+  0% 862/1233389 [21:50<523:43:13,  1.53s/it]
+
+  0% 864/1233389 [21:53<524:22:42,  1.53s/it]
+[2022-12-08 18:17:35,406] [INFO] [timer.py:197:stop] 0/864, RunningAvgSamplesPerSec=2.640757216102552, CurrSamplesPerSec=2.622591481572378, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:17:36,942] [INFO] [timer.py:197:stop] 0/865, RunningAvgSamplesPerSec=2.640721341238009, CurrSamplesPerSec=2.610155563393199, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 865/1233389 [21:55<524:49:59,  1.53s/it]
+
+  0% 866/1233389 [21:57<525:17:29,  1.53s/it]
+
+  0% 867/1233389 [21:58<525:52:52,  1.54s/it]
+[2022-12-08 18:17:41,559] [INFO] [timer.py:197:stop] 0/868, RunningAvgSamplesPerSec=2.6406008667091676, CurrSamplesPerSec=2.6045761831441987, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 869/1233389 [22:01<525:19:14,  1.53s/it]
+[2022-12-08 18:17:44,607] [INFO] [logging.py:68:log_dist] [Rank 0] step=870, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:17:44,614] [INFO] [timer.py:197:stop] 0/870, RunningAvgSamplesPerSec=2.6405624942226344, CurrSamplesPerSec=2.6238851329582755, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 870/1233389 [22:03<524:36:19,  1.53s/it]
+
+  0% 871/1233389 [22:04<531:40:17,  1.55s/it]
+
+  0% 873/1233389 [22:07<528:49:08,  1.54s/it]
+[2022-12-08 18:17:49,292] [INFO] [timer.py:197:stop] 0/873, RunningAvgSamplesPerSec=2.640321387070844, CurrSamplesPerSec=2.623667247524344, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 874/1233389 [22:09<526:41:53,  1.54s/it]
+[2022-12-08 18:17:52,346] [INFO] [timer.py:197:stop] 0/875, RunningAvgSamplesPerSec=2.6402882690392895, CurrSamplesPerSec=2.6211352930221863, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 875/1233389 [22:10<525:44:44,  1.54s/it]
+
+  0% 877/1233389 [22:13<524:47:34,  1.53s/it]
+[2022-12-08 18:17:55,406] [INFO] [timer.py:197:stop] 0/877, RunningAvgSamplesPerSec=2.640245668867667, CurrSamplesPerSec=2.618968348620989, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 878/1233389 [22:15<524:39:26,  1.53s/it]
+
+  0% 879/1233389 [22:17<524:54:12,  1.53s/it]
+[2022-12-08 18:18:00,002] [INFO] [logging.py:68:log_dist] [Rank 0] step=880, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:18:00,009] [INFO] [timer.py:197:stop] 0/880, RunningAvgSamplesPerSec=2.6401485884897116, CurrSamplesPerSec=2.6076544716571797, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 880/1233389 [22:18<525:16:47,  1.53s/it]
+[2022-12-08 18:18:01,537] [INFO] [timer.py:197:stop] 0/881, RunningAvgSamplesPerSec=2.6401335808935986, CurrSamplesPerSec=2.6270224226481274, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 882/1233389 [22:21<523:47:23,  1.53s/it]
+
+  0% 883/1233389 [22:23<524:56:02,  1.53s/it]
+
+  0% 884/1233389 [22:24<524:58:22,  1.53s/it]
+[2022-12-08 18:18:07,665] [INFO] [timer.py:197:stop] 0/885, RunningAvgSamplesPerSec=2.6400247690418595, CurrSamplesPerSec=2.620954304405465, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.7165, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 886/1233389 [22:27<524:59:18,  1.53s/it]
+
+  0% 887/1233389 [22:29<524:46:18,  1.53s/it]
+
+  0% 888/1233389 [22:30<524:28:45,  1.53s/it]
+
+  0% 890/1233389 [22:33<526:46:17,  1.54s/it]
+[2022-12-08 18:18:15,349] [INFO] [logging.py:68:log_dist] [Rank 0] step=890, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:18:15,355] [INFO] [timer.py:197:stop] 0/890, RunningAvgSamplesPerSec=2.6398390754364653, CurrSamplesPerSec=2.604413241494163, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.5583, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 891/1233389 [22:35<536:10:48,  1.57s/it]
+
+  0% 892/1233389 [22:37<532:48:15,  1.56s/it]
+
+  0% 893/1233389 [22:38<529:53:59,  1.55s/it]
+[2022-12-08 18:18:21,582] [INFO] [timer.py:197:stop] 0/894, RunningAvgSamplesPerSec=2.6395514435026355, CurrSamplesPerSec=2.611638195397897, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:18:23,117] [INFO] [timer.py:197:stop] 0/895, RunningAvgSamplesPerSec=2.639519479007762, CurrSamplesPerSec=2.6113121888824313, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 895/1233389 [22:41<527:43:30,  1.54s/it]
+
+  0% 896/1233389 [22:43<527:55:48,  1.54s/it]
+
+  0% 897/1233389 [22:44<527:29:27,  1.54s/it]
+[2022-12-08 18:18:27,739] [INFO] [timer.py:197:stop] 0/898, RunningAvgSamplesPerSec=2.639397576648208, CurrSamplesPerSec=2.6030333007719166, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 899/1233389 [22:47<526:34:07,  1.54s/it]
+[2022-12-08 18:18:31,106] [INFO] [logging.py:68:log_dist] [Rank 0] step=900, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:18:31,113] [INFO] [timer.py:197:stop] 0/900, RunningAvgSamplesPerSec=2.6387440776024707, CurrSamplesPerSec=2.175470008023863, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 900/1233389 [22:49<557:44:42,  1.63s/it]
+
+  0% 901/1233389 [22:51<548:37:20,  1.60s/it]
+
+  0% 902/1233389 [22:52<542:01:26,  1.58s/it]
+[2022-12-08 18:18:35,739] [INFO] [timer.py:197:stop] 0/903, RunningAvgSamplesPerSec=2.6386138320566555, CurrSamplesPerSec=2.5894409830519356, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 904/1233389 [22:55<542:51:39,  1.59s/it]
+[2022-12-08 18:18:38,912] [INFO] [timer.py:197:stop] 0/905, RunningAvgSamplesPerSec=2.638356165322545, CurrSamplesPerSec=2.5758300984259344, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 905/1233389 [22:57<539:51:36,  1.58s/it]
+
+  0% 906/1233389 [22:58<534:38:12,  1.56s/it]
+
+  0% 908/1233389 [23:02<528:24:49,  1.54s/it]
+[2022-12-08 18:18:43,487] [INFO] [timer.py:197:stop] 0/908, RunningAvgSamplesPerSec=2.6383283362669125, CurrSamplesPerSec=2.6159036850914745, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 909/1233389 [23:03<526:49:14,  1.54s/it]
+[2022-12-08 18:18:46,548] [INFO] [logging.py:68:log_dist] [Rank 0] step=910, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:18:46,556] [INFO] [timer.py:197:stop] 0/910, RunningAvgSamplesPerSec=2.6382702688758677, CurrSamplesPerSec=2.6015148352818986, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 910/1233389 [23:05<526:59:57,  1.54s/it]
+
+  0% 911/1233389 [23:06<527:32:22,  1.54s/it]
+[2022-12-08 18:18:49,629] [INFO] [timer.py:197:stop] 0/912, RunningAvgSamplesPerSec=2.638207893553935, CurrSamplesPerSec=2.6208773303981303, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 913/1233389 [23:09<528:17:45,  1.54s/it]
+
+  0% 914/1233389 [23:11<526:15:26,  1.54s/it]
+[2022-12-08 18:18:54,255] [INFO] [timer.py:197:stop] 0/915, RunningAvgSamplesPerSec=2.6380796103911845, CurrSamplesPerSec=2.5916562010025412, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 915/1233389 [23:12<527:12:39,  1.54s/it]
+[2022-12-08 18:18:55,789] [INFO] [timer.py:197:stop] 0/916, RunningAvgSamplesPerSec=2.638056143151134, CurrSamplesPerSec=2.616803351561452, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 917/1233389 [23:15<526:36:42,  1.54s/it]
+
+  0% 918/1233389 [23:17<525:43:51,  1.54s/it]
+
+  0% 919/1233389 [23:18<524:17:36,  1.53s/it]
+[2022-12-08 18:19:01,899] [INFO] [logging.py:68:log_dist] [Rank 0] step=920, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:19:01,907] [INFO] [timer.py:197:stop] 0/920, RunningAvgSamplesPerSec=2.637981823056385, CurrSamplesPerSec=2.6238055246683336, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 921/1233389 [23:21<523:59:56,  1.53s/it]
+[2022-12-08 18:19:03,438] [INFO] [timer.py:197:stop] 0/921, RunningAvgSamplesPerSec=2.6379627141388275, CurrSamplesPerSec=2.6205367337445873, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 922/1233389 [23:23<523:33:27,  1.53s/it]
+
+  0% 923/1233389 [23:25<524:00:30,  1.53s/it]
+
+  0% 925/1233389 [23:28<526:36:57,  1.54s/it]
+[2022-12-08 18:19:09,588] [INFO] [timer.py:197:stop] 0/925, RunningAvgSamplesPerSec=2.6378287125283064, CurrSamplesPerSec=2.591645391720837, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+{'loss': 0.6893, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 926/1233389 [23:29<526:05:56,  1.54s/it]
+
+  0% 927/1233389 [23:31<525:31:58,  1.54s/it]
+
+  0% 928/1233389 [23:32<524:54:09,  1.53s/it]
+[2022-12-08 18:19:15,716] [INFO] [timer.py:197:stop] 0/929, RunningAvgSamplesPerSec=2.637740100528467, CurrSamplesPerSec=2.611405267228601, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+[2022-12-08 18:19:17,246] [INFO] [logging.py:68:log_dist] [Rank 0] step=930, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+
+  0% 930/1233389 [23:35<525:19:28,  1.53s/it]
+{'loss': 0.6095, 'learning_rate': 5e-05, 'epoch': 0.0}
+
+  0% 931/1233389 [23:37<525:28:29,  1.53s/it]
+
+  0% 932/1233389 [23:38<525:11:10,  1.53s/it]
+[2022-12-08 18:19:21,863] [INFO] [timer.py:197:stop] 0/933, RunningAvgSamplesPerSec=2.637616624403724, CurrSamplesPerSec=2.5985077629749083, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 934/1233389 [23:41<525:05:31,  1.53s/it]
+[2022-12-08 18:19:24,925] [INFO] [timer.py:197:stop] 0/935, RunningAvgSamplesPerSec=2.637576286845775, CurrSamplesPerSec=2.612961755653453, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 935/1233389 [23:43<525:09:17,  1.53s/it]
+
+  0% 936/1233389 [23:45<534:34:22,  1.56s/it]
+
+  0% 937/1233389 [23:46<532:16:56,  1.55s/it]
+[2022-12-08 18:19:29,630] [INFO] [timer.py:197:stop] 0/938, RunningAvgSamplesPerSec=2.6373126032098915, CurrSamplesPerSec=2.6035467183738015, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 939/1233389 [23:49<529:00:48,  1.55s/it]
+[2022-12-08 18:19:32,686] [INFO] [logging.py:68:log_dist] [Rank 0] step=940, skipped=0, lr=[5e-05], mom=[[0.9, 0.999]]
+[2022-12-08 18:19:32,693] [INFO] [timer.py:197:stop] 0/940, RunningAvgSamplesPerSec=2.6372691957365517, CurrSamplesPerSec=2.6201941795486925, MemAllocated=0.66GB, MaxMemAllocated=10.67GB
+
+  0% 940/1233389 [23:51<527:24:47,  1.54s/it]
+
+  0% 941/1233389 [23:52<528:34:24,  1.54s/it]
+[2022-12-08 18:19:35,781] [INFO] [timer.py:197:stop] 0/942, RunningAvgSamplesPerSec=2.6371851319098836, CurrSamplesPerSec=2.6098226192811405, MemAllocated=0.66GB, MaxMemAllocated=10.67GB

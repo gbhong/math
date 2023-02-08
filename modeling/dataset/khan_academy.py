@@ -11,6 +11,7 @@ import logging
 import random
 import io
 from tqdm import tqdm
+import os
 
 from dataset.util import last_boxed_only, _clean_numbers, last_boxed_only_string
 
@@ -31,45 +32,68 @@ class KhanAcademyMathDataset(BaseMathDataset):
         Set up self.samples by loading from the dataroot
         """
 
-        all_filenames = glob.glob(self.dataroot)
-        print(f"{self.__class__.__name__}: Loading samples from {len(all_filenames)} files.")
         samples_raw = []
-        for fname in tqdm(all_filenames):
-            # Each fname is a json file with the following structure:
-            # {
-            #     "problem": "How many positive three-digit ...?",
-            #     "level": "Level 24",
-            #     "type": "Counting & Probability",
-            #     "solution": "<Blah>",
-            #     "discuss": ""
-            # }
-            with open(fname, 'r') as fp:
-                problem_data = json.load(fp)
-            
-            q = problem_data.get('question', None) or problem_data['problem']
 
-            if 'hints' in problem_data:
-                a = problem_data['hints']
-            elif 'solution' in problem_data:
-                print(f"Falling back to 'solution': {fname}")
-                a = problem_data['solution']
-            else:
-                print("Malformed file")
-                print(fname)
-                print(problem_data)
+        if not self.processed_data:
+            all_filenames = glob.glob(self.dataroot + "/*/*.json")
+            print(f"{self.__class__.__name__}: Loading samples from {len(all_filenames)} files.")
+            samples_json_list = []
+            for fname in tqdm(all_filenames):
+                # Each fname is a json file with the following structure:
+                # {
+                #     "problem": "How many positive three-digit ...?",
+                #     "level": "Level 24",
+                #     "type": "Counting & Probability",
+                #     "solution": "<Blah>",
+                #     "discuss": ""
+                # }
+                with open(fname, 'r') as fp:
+                    problem_data = json.load(fp)
+                
+                q = problem_data.get('question', None) or problem_data['problem']
 
+                if 'hints' in problem_data:
+                    a = problem_data['hints']
+                elif 'solution' in problem_data:
+                    print(f"Falling back to 'solution': {fname}")
+                    a = problem_data['solution']
+                else:
+                    print("Malformed file")
+                    print(fname)
+                    print(problem_data)
 
-            assert q is not None and a is not None
+                assert q is not None and a is not None
 
-            curr_sample_raw = (q, a, fname)
-            samples_raw.append(curr_sample_raw)
+                curr_sample_raw = (q, a, fname)
+                samples_raw.append(curr_sample_raw)
+
+                samples_json_list.append({
+                    "question": q,
+                    "answer": a,
+                    "fname": fname
+                    })
+
+        else:
+            train_file = os.path.join(self.processed_data, "train_khan_academy.txt")
+            docs = [json.loads(line) for line in open(train_file)]
+            print(f"{self.__class__.__name__}: Loading processed samples from {len(docs)} lines.")
+            for doc in tqdm(docs):
+                curr_sample_raw = (doc["question"], doc["answer"], doc["fname"])
+                samples_raw.append(curr_sample_raw)
         
         manager = Manager()
         samples_raw = manager.list(samples_raw)
         self.samples = samples_raw
+
+        if not self.processed_data:
+            with open("./train_khan_academy.txt", "w") as f:
+                for lst in samples_json_list:
+                    f.write(json.dumps(lst) + "\n")
+
         del samples_raw
 
         print(f"{self.__class__.__name__}: Loaded {len(self.samples)} samples.")
+        print()
 
 
     def tokenize_latex_mask_full_answer(self, answer_full):

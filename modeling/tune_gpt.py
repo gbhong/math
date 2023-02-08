@@ -13,6 +13,9 @@ import json
 import argparse
 
 import transformers
+from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers.integrations import WandbCallback
+import wandb
 
 from tqdm import tqdm
 from datetime import datetime
@@ -46,16 +49,16 @@ def run_training(args, train_data):
     else:
         save_steps = args.save_steps
 
-
-
     print("Save Steps = ", save_steps)
 
     ## Checkpoint Loading ######################################################## 
-    if args.load:
-        model = transformers.GPT2LMHeadModel.from_pretrained(args.load)
-        print(f"Loaded model from {args.load}")
-    else:
-        model = transformers.GPT2LMHeadModel.from_pretrained(args.arch)
+    # if args.load:
+    #     model = transformers.GPT2LMHeadModel.from_pretrained(args.load)
+    #     print(f"Loaded model from {args.load}")
+    # else:
+    #     model = transformers.GPT2LMHeadModel.from_pretrained(args.arch)
+
+    model = AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-neo-1.3B")
 
     start_epoch = 0
     start_iteration = 0
@@ -96,21 +99,24 @@ def run_training(args, train_data):
 
         local_rank=args.local_rank,
         tpu_num_cores=args.tpu_num_cores,
+        # deepspeed=args.config_deepspeed,
+        report_to="wandb"
     )
 
     trainer = GPT2Trainer(
         model=model,
         args=training_args,
         train_dataset=train_data,
+        callbacks=[WandbCallback()]
     )
-    trainer.remove_callback(transformers.integrations.TensorBoardCallback)
-    trainer.add_callback(CustomTensorBoardCallback())
+    # trainer.remove_callback(transformers.integrations.TensorBoardCallback)
+    # trainer.add_callback(CustomTensorBoardCallback())
 
     print(f"STARTING TRAINING. save_steps={save_steps}")
     trainer.train()
     
     trainer.save_model(os.path.join(args.save_dir, "final_checkpoint"))
-    print("Finished")
+    print("===== Finished =====")
 
 
 class GPT2Trainer(transformers.Trainer):
@@ -190,10 +196,12 @@ def get_tokenizer_gpt(args):
     >>> tokenizer_old.encode("HEllo world!")
     [13909, 18798, 995, 0]
     """
-    if args.tokenizer_merges_file is not None:
-        tokenizer = transformers.GPT2Tokenizer.from_pretrained(args.arch, merges_file=args.tokenizer_merges_file)
-    else:
-        tokenizer = transformers.GPT2Tokenizer.from_pretrained(args.arch)
+    # if args.tokenizer_merges_file is not None:
+    #     tokenizer = transformers.GPT2Tokenizer.from_pretrained(args.arch, merges_file=args.tokenizer_merges_file)
+    # else:
+    #     tokenizer = transformers.GPT2Tokenizer.from_pretrained(args.arch)
+
+    tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-neo-125M")
     return tokenizer
 
 def get_dataset(args): 
@@ -204,40 +212,71 @@ def get_dataset(args):
     train_data = []
 
     if args.mathematica_dataroot:
-        for mathematica_dr in args.mathematica_dataroot:
-            len_multiplier, dirname = mathematica_dr.split("@")
-            len_multiplier = float(len_multiplier)
+        # for mathematica_dr in args.mathematica_dataroot:
+            # len_multiplier, dirname = mathematica_dr.split("@")
+            # len_multiplier = float(len_multiplier)
+        len_multiplier = 1.0
+        dirname = args.mathematica_dataroot
 
-            no_steps_flist_fname = os.path.join(dirname, "no_steps_flist_relative.txt")
-            with_steps_flist_fname = os.path.join(dirname, "with_steps_flist_relative.txt")
+        categories_list = [
+            "algebra", "calculus", "counting_and_statistics", "geometry", "linear_algebra", "number_theory"
+            ]
 
-            with open(no_steps_flist_fname,"r") as f:
-                no_steps_num_files = len(f.readlines())
+        if args.processed_mathematica_dataroot:
+              train_data.append(MathematicaMathDataset(
+                dataroot=args.mathematica_dataroot,    # Not used
+                tokenizer=tokenizer,
+                max_tokens=384 if args.arch == 'gpt2-xl' else 1024,
+                mode='gpt2',
+                len_multiplier=len_multiplier,
+                processed_data=args.processed_mathematica_dataroot
+            ))
 
-            with open(with_steps_flist_fname,"r") as f:
-                with_steps_num_files = len(f.readlines())
+        else:
+            for category in categories_list:
+                no_steps_flist_fname = os.path.join(dirname, "no_steps_flist_relative_{}.txt".format(category))
+                with open(no_steps_flist_fname,"r") as f:
+                    no_steps_num_files = len(f.readlines())
 
-            if no_steps_num_files:
-                train_data.append(MathematicaMathDataset(
-                    dataroot=no_steps_flist_fname,
-                    tokenizer=tokenizer,
-                    max_tokens=384 if args.arch == 'gpt2-xl' else 1024,
-                    mode='gpt2',
-                    len_multiplier=len_multiplier
-                ))
+                if no_steps_num_files:
+                    train_data.append(MathematicaMathDataset(
+                        dataroot=no_steps_flist_fname,
+                        tokenizer=tokenizer,
+                        max_tokens=384 if args.arch == 'gpt2-xl' else 1024,
+                        mode='gpt2',
+                        len_multiplier=len_multiplier
+                    ))
 
-            if with_steps_num_files:
-                train_data.append(MathematicaWithStepsMathDataset(
-                    dataroot=with_steps_flist_fname,
-                    tokenizer=tokenizer,
-                    max_tokens=384 if args.arch == 'gpt2-xl' else 1024,
-                    mode='gpt2',
-                    len_multiplier=len_multiplier
-                ))
+        if args.processed_mathematica_steps_dataroot:
+            train_data.append(MathematicaWithStepsMathDataset(
+                dataroot=args.mathematica_dataroot,    # Not used
+                tokenizer=tokenizer,
+                max_tokens=384 if args.arch == 'gpt2-xl' else 1024,
+                mode='gpt2',
+                len_multiplier=len_multiplier,
+                processed_data=args.processed_mathematica_steps_dataroot
+            ))
+        else:
+            for category in categories_list:
+                with_steps_flist_fname = os.path.join(dirname, "with_steps_flist_relative_{}.txt".format(category))
+                with open(with_steps_flist_fname,"r") as f:
+                    with_steps_num_files = len(f.readlines())
+                if with_steps_num_files:
+                    train_data.append(MathematicaWithStepsMathDataset(
+                        dataroot=with_steps_flist_fname,
+                        tokenizer=tokenizer,
+                        max_tokens=384 if args.arch == 'gpt2-xl' else 1024,
+                        mode='gpt2',
+                        len_multiplier=len_multiplier
+                    ))
 
     if args.khan_dataroot:
-        len_multiplier, dirname = args.khan_dataroot.split("@")
-        len_multiplier = float(len_multiplier)
+        # len_multiplier, dirname = args.khan_dataroot.split("@")
+        # len_multiplier = float(len_multiplier)
+
+        len_multiplier = 1.0
+        dirname = args.khan_dataroot
+
         train_data.append(KhanAcademyMathDataset(
             dataroot=dirname,
             tokenizer=tokenizer,
@@ -245,7 +284,8 @@ def get_dataset(args):
             mode='gpt2',
             mode_answer=args.khan_mode,
             len_multiplier=len_multiplier,
-            latex_mask=args.khan_latex_mask
+            latex_mask=args.khan_latex_mask,
+            processed_data=args.processed_khan_dataroot
         ))
     
     if args.MATH_dataroot:
@@ -273,24 +313,32 @@ def main():
 
     ######### Arg parsing ###############################################################
 
-    parser = argparse.ArgumentParser(description="Language Modelling on Code")
+    parser = argparse.ArgumentParser(description="Language Modeling on Code")
     parser.add_argument('--arch', default='gpt2', choices=transformers.GPT2_PRETRAINED_MODEL_ARCHIVE_LIST)
-    parser.add_argument('--tokenizer-merges-file', default=None, type=str)
+    parser.add_argument('--tokenizer-merges-file', default="./merges_gpt2_single_digit_numbers", type=str)
     parser.add_argument('--load', default=None, type=str)
 
     # Dataloading
     parser.add_argument('--khan-mode', default='mixed_hints', type=str)
-    parser.add_argument('--khan-dataroot', default=None, type=str)
+    parser.add_argument('--khan-dataroot', default="../data_file_lists/amps/khan", type=str)
     parser.add_argument('--khan-latex-mask', default=False, action='store_true')
     parser.add_argument('--deepmind-dataroot', default=None, type=str, action='append')
-    parser.add_argument('--mathematica-dataroot', default=None, type=str, action='append')
-    parser.add_argument('--mathematica-with-steps-dataroot', default=None, type=str, action='append')
+    parser.add_argument('--mathematica-dataroot', default="../data_file_lists", type=str, action='append')
+
     parser.add_argument('--MATH-mode', default='mixed_final_boxed_and_full', type=str, choices=['mixed_final_boxed_and_full', 'final_boxed', 'peeking', 'nopack_padding', 'mixed_full_and_peeking', 'mixed_full_and_nopack_padding'])
     parser.add_argument('--MATH-peek-min', default=0.1, type=float)
     parser.add_argument('--MATH-peek-max', default=1.0, type=float)
     parser.add_argument('--MATH-dataroot', default=None, type=str)
     parser.add_argument('--stackexchange-dataroot', default=None, type=str)
     parser.add_argument('--dataloader-num-workers', default=1, type=int)
+
+    # Preprocessed Data
+    # parser.add_argument('--processed-khan-dataroot', default="../processed_data/khan", type=str)
+    # parser.add_argument('--processed-mathematica-dataroot', default="../processed_data/mathematica", type=str)
+    # parser.add_argument('--processed-mathematica-steps-dataroot', default="../processed_data/mathematica_steps", type=str)
+    parser.add_argument('--processed-khan-dataroot', default="gs://pretrainingmath/processed_data/khan", type=str)
+    parser.add_argument('--processed-mathematica-dataroot', default="gs://pretrainingmath/processed_data/mathematica", type=str)
+    parser.add_argument('--processed-mathematica-steps-dataroot', default="gs://pretrainingmath/processed_data/mathematica_steps", type=str)
 
     # Training
     parser.add_argument('--epochs', default=1, type=int)
@@ -300,10 +348,11 @@ def main():
     parser.add_argument('--batch-size-per-replica', default=8, type=int)
     parser.add_argument('--grad-acc-steps', default=4, type=int)
     parser.add_argument('--local_rank', default=-1, type=int)
-    parser.add_argument('--tpu_num_cores', default=None, type=int)
+    parser.add_argument('--tpu_num_cores', default=8, type=int)
+    # parser.add_argument('--config-deepspeed', default="./ds_config_1gpu.json", type=str)
 
     # Logging and stuff
-    parser.add_argument('--save-dir', default="checkpoints/TEMP", type=str)
+    parser.add_argument('--save-dir', default="gs://checkpoints/GPT_NEO", type=str)
     parser.add_argument('--save-steps', default=0, type=int)
     parser.add_argument('--log-freq', default=5, type=int)
 
@@ -317,6 +366,9 @@ def main():
 
     train_data = get_dataset(args)
 
+    os.environ["WANDB_API_KEY"] = "dab460cd3b1e6c17570026a9d3ff16a992acb15e"
+    os.environ["WANDB_PROJECT"] = "Pretraining_GPT_NEO_1.3B_DS"
+    
     os.makedirs(args.save_dir, exist_ok=True)
     with open(os.path.join(args.save_dir, "command.txt"), 'w') as f:
         f.write(pprint.pformat(argsdict))

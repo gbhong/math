@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.10.133+-x86_64-with-glibc2.27",
+    "python": "3.8.15",
+    "heartbeatAt": "2022-12-08T01:03:59.822583",
+    "startedAt": "2022-12-08T01:03:55.403174",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/hendrycks/math.git",
+        "commit": "357963a7f5501a6c1708cf3f3fb0cdf525642761"
+    },
+    "email": null,
+    "root": "/content/drive/MyDrive/Colab Notebooks/math",
+    "host": "44868ce618a1",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "disk": {
+        "total": 166.77415084838867,
+        "used": 23.024921417236328
+    },
+    "gpu": "A100-SXM4-40GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "A100-SXM4-40GB",
+            "memory_total": 42505273344
+        }
+    ],
+    "memory": {
+        "total": 83.48347091674805
+    }
+}

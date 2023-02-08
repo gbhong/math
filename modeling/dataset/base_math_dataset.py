@@ -19,10 +19,14 @@ from torch.multiprocessing import Pool
 from dataset.util import last_boxed_only, clean_numbers, last_boxed_only_string
 
 class BaseMathDataset(torch.utils.data.Dataset):
-    """Configurable APPS Dataset.
+    """
+    Configurable APPS Dataset.
     """
 
-    def __init__(self, dataroot, tokenizer, max_tokens, mode, mode_answer='default', len_multiplier=1.0, packing=None, randomize=None, pack_end=None, clean_numbers=False, latex_mask=False, peek_fraction=(0.1, 1.0)):
+    def __init__(self, dataroot, tokenizer, max_tokens, mode, mode_answer='default', len_multiplier=1.0, \
+        packing=None, randomize=None, pack_end=None, clean_numbers=False, latex_mask=False, \
+            peek_fraction=(0.1, 1.0), processed_data=None):
+
         self.dataroot = dataroot
         self.tokenizer = tokenizer # Set in run_training(), not in dataset creation
         self.max_tokens = max_tokens
@@ -32,6 +36,7 @@ class BaseMathDataset(torch.utils.data.Dataset):
         self.clean_numbers = clean_numbers
         self.latex_mask = latex_mask
         self.peek_fraction = peek_fraction
+        self.processed_data = processed_data
 
         if self.mode in {'gpt2'}:
             self.clean_sample = self.clean_filter_sample_gpt

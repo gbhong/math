@@ -1,0 +1,53 @@
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+
+  0% 1/308347 [00:09<813:08:52,  9.49s/it]
+
+
+
+
+  0% 5/308347 [00:27<425:49:30,  4.97s/it]
+
+
+
+
+  0% 9/308347 [00:46<403:22:12,  4.71s/it]
+
+
+  0% 11/308347 [00:55<403:48:13,  4.71s/it]Traceback (most recent call last):
+  File "tune_gpt.py", line 380, in <module>
+    main()
+  File "tune_gpt.py", line 371, in main
+    run_training(args, train_data)
+  File "tune_gpt.py", line 115, in run_training
+    trainer.train()
+  File "/usr/local/lib/python3.8/dist-packages/transformers/trainer.py", line 1527, in train
+    return inner_training_loop(
+  File "/usr/local/lib/python3.8/dist-packages/transformers/trainer.py", line 1775, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/usr/local/lib/python3.8/dist-packages/transformers/trainer.py", line 2523, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/usr/local/lib/python3.8/dist-packages/transformers/trainer.py", line 2555, in compute_loss
+    outputs = model(**inputs)
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 744, in forward
+    transformer_outputs = self.transformer(
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 623, in forward
+    outputs = block(
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 328, in forward
+    attn_outputs = self.attn(
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 280, in forward
+    return self.attention(
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 243, in forward
+    attn_output, attn_weights = self._attn(query, key, value, attention_mask, head_mask)
+  File "/usr/local/lib/python3.8/dist-packages/transformers/models/gpt_neo/modeling_gpt_neo.py", line 195, in _attn
+    mask_value = torch.tensor(mask_value, dtype=attn_weights.dtype).to(attn_weights.device)
+KeyboardInterrupt

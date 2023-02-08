@@ -21,7 +21,9 @@ from torch.multiprocessing import Pool
 from dataset.base_math_dataset import BaseMathDataset
 
 class MathematicaMathDataset(BaseMathDataset):
-    """Configurable Math Dataset.
+
+    """
+    Configurable Math Dataset.
     """
 
     def __len__(self):
@@ -32,49 +34,77 @@ class MathematicaMathDataset(BaseMathDataset):
         Set up self.samples by loading from the dataroot
         """
 
-        with open(self.dataroot, 'r') as fp:
-            all_filenames = fp.readlines()
-
-        print(f"{self.__class__.__name__}: Loading samples from {len(all_filenames)} files.")
         samples_raw = []
-        for fname in tqdm(all_filenames):
-            fname = fname.rstrip()
-            fname = os.path.join(os.path.dirname(os.path.dirname(self.dataroot)), fname[2:])
-            if not os.path.isfile(fname):
-                print(f"SKIPPING {fname}")
-                continue
-            with open(fname, 'r') as fp:
-                question = ""
-                answers  = []
-                reading_question = True
-                curr_section = ""
-                for line in fp:
-                    if line == "Problem:\n":
-                        reading_question = True
-                    elif line == "Answer:\n":
-                        if reading_question:
-                            # curr_section contains Q
-                            question = curr_section
-                        else:
-                            # curr_section contains an A
-                            answers.append(curr_section)
-                        curr_section = ""
-                        reading_question = False
-                    else:
-                        curr_section += line
-                
-                # The last answer needs to be recorded.
-                answers.append(curr_section)
+        if not self.processed_data:
+            with open(self.dataroot, 'r') as fp:
+                all_filenames = fp.readlines()
+
+            print(f"{self.__class__.__name__}: Loading samples from {len(all_filenames)} files.")
             
-            for a in answers:
-                samples_raw.append((question, a, fname))
+            samples_json_list = []
+            for fname in tqdm(all_filenames):
+                fname = fname.rstrip()    # algebra/pemdas/14982.txt
+                # fname = os.path.join(os.path.dirname(os.path.dirname(self.dataroot)), fname[2:])
+                fname = os.path.join("../data_file_lists/amps/mathematica", fname[2:])
+                if not os.path.isfile(fname):
+                    print(f"SKIPPING {fname}")
+                    continue
+                with open(fname, 'r') as fp:
+                    question = ""
+                    answers  = []
+                    reading_question = True
+                    curr_section = ""
+                    for line in fp:
+                        if line == "Problem:\n":
+                            reading_question = True
+                        elif line == "Answer:\n":
+                            if reading_question:
+                                # curr_section contains Q
+                                question = curr_section
+                            else:
+                                # curr_section contains an A
+                                answers.append(curr_section)
+                            curr_section = ""
+                            reading_question = False
+                        else:
+                            curr_section += line
+                    
+                    # The last answer needs to be recorded.
+                    answers.append(curr_section)
+                
+                for a in answers:
+                    samples_raw.append((question, a, fname))
+                
+                samples_json_list.append({
+                    "question": question,
+                    "answer": answers,
+                    "fname": fname
+                    })
+
+        else:
+            train_files = [f for f in os.listdir(self.processed_data) if f.endswith(".txt")]
+            for train_file in train_files:
+                train_file = os.path.join(self.processed_data, train_file)
+                docs = [json.loads(line) for line in open(train_file)]
+                print(f"{self.__class__.__name__}: Loading processed samples from {len(docs)} lines.")
+                for doc in tqdm(docs):
+                    for a in doc["answer"]:
+                        samples_raw.append((doc["question"], a, doc["fname"]))
 
         # manager = Manager()
         # samples_raw = manager.list(samples_raw)
         self.samples = samples_raw
+
+        if not self.processed_data:
+            save_file_name = "./train_no_steps_{}".format(self.dataroot.split("_")[-1])
+            with open(save_file_name, "w") as f:
+                for lst in samples_json_list:
+                    f.write(json.dumps(lst) + "\n")
+
         del samples_raw
 
         print(f"{self.__class__.__name__}: Loaded {len(self.samples)} samples.")
+        print()
 
     def clean_filter_sample_gpt(self, sample):
         """
